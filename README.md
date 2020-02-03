@@ -1,13 +1,16 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.5 --
++ detailsannonces.html (Statique : Fait | CSS : encours |  )
+
 -- v0.0.4 --
 + logged.html (Statique : Fait | CSS : Fait |  )
 + Formatage du Code
 + Commentaire
 
 -- v0.0.3 --
-+ Template
++ Template (Statique : Fait | CSS : Fait |  )
 + Image
 + listeannonces.html (Statique : Fait | CSS : Fait | js :) 
 + Formatage du Code

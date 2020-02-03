@@ -1,79 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Détail Annonce</title>
 
-    <style>
+    <!-- Feuille de Style en cascade -->
+	<link rel="stylesheet" href="../css/detailsannonces.css">
 
-section {
-    display: grid;
-    grid-template-columns: repeat(2, 600px);
-    margin-left : 10%;
-    margin-right : 10%;
-}
-
-    </style>
 </head>
-    <body>
-    <!--Début detail de l'annonce version static-->
-        <section>
-             <!-- Photo de l'utilisateur , nom et évalutation  -->
-            <div class="profil">
-                <img src="../img/Templates/Profil_wireframe.png" alt="profil">
-                <p>Nom de l'utilisateur</p>
-                <div class="evalution">
-                    <img src="../img/Templates/casque_blanc_cp.png" alt="casque">
-                    <img src="../img/Templates/casque_blanc_cp.png" alt="casque">
-                    <img src="../img/Templates/casque_blanc_cp.png" alt="casque">
-                    <img src="../img/Templates/casque_blanc_cp.png" alt="casque">
-                    <img src="../img/Templates/casque_blanc_cp.png" alt="casque">
-                </div>
-            </div>
+    <!--Début du Body-->
+	<body>
+		<!--Début du Header-->
+		<header>
+			<!--Logo-->
+			<div id="logo"></div>
+			<!--Container Bannière et Menu-->
+			<div id="container" class="banniere">
+				
+				<div id="bottomdiv">
+					
+					<!--ça correspond à ( rechercher et proposer ) -->
+					<div class="h_txtg">
+						<a id="recherche_index" href="">Recherche</a>
+						<a id="proposer_index" href="">Proposer</a>
+					</div>
 
-             <!-- Champs de donnés  -->
-            <div class="donnes">
-                <p>Ville de Départ : <input type=""></p>
-                <p>Ville d'arrivée : <input type=""></p>
-                <p>Date : <input type="Date"></p>
-                <p>Heure : <input type=""></p>
-                <p>Prix : <input type=""></p>
-            </div>
+					<!--ça correspond à ( incription et connexion ) -->
+					<div class="h_txtd">
+						<a id="inscription_index" href="">Inscription</a>
+						<a id="connexion_index" href="">Connexion</a>
+					</div>
 
-             <!-- Photo miniature et véhicules  -->
-            <div class="vehicule ">
-                <div class ="miniature">
-                    <img src="../img/Templates/Profil_wireframe.png" alt="miniature">
-                    <img src="../img/Templates/Profil_wireframe.png" alt="miniature">
-                    <img src="../img/Templates/Profil_wireframe.png" alt="miniature">
-                </div>
-                <img src="../img/Templates/Profil_wireframe.png" alt="vehicule">
-            </div>
+				</div>
 
-             <!-- Description + bouton  -->
-            <div>
-                <div>
-                    <fieldset>
+			</div>
 
-                    </fieldset>
-                </div>
-                <div>
-                    <h2>Description</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    </br> Distinctio iste rem, illum culpa labore alias voluptate, 
-                    </br>delectus officia tempore exercitationem et esse laboriosam eligendi quam inventore?
-                    </br> Explicabo aliquid iste suscipit!</p> 
-                </div>
-                <div>
-                    <button>Réserver</button>
-                    <button>Contacter</button>
-                </div>
+		</header>
+		<!--Fin du Header-->
 
-            </div>
-            <!-- Fin detail de l'annonce version static -->
-        </section>
-    </body>
+		<!--Début detail de l'annonce version static-->
+        <section id="s1">
+            <!-- Photo de l'utilisateur , nom et évalutation  -->
+           <div class="profil">
+               <img src="../img/Profil_wireframe.png" alt="profil">
+               <p>Nom de l'utilisateur</p>
+               <div class="evalution">
+                   <img src="../img/casque_blanc.png" alt="casque">
+                   <img src="../img/casque_blanc.png" alt="casque">
+                   <img src="../img/casque_blanc.png" alt="casque">
+                   <img src="../img/casque_blanc.png" alt="casque">
+                   <img src="../img/casque_blanc.png" alt="casque">
+               </div>
+           </div>
+
+            <!-- Champs de donnés  -->
+           <div class="donnes">
+               <p>Ville de Départ : <input type=""></p>
+               <p>Ville d'arrivée : <input type=""></p>
+               <p>Date : <input type="Date"></p>
+               <p>Heure : <input type=""></p>
+               <p>Prix : <input type=""></p>
+           </div>
+
+            <!-- Photo miniature et véhicules  -->
+           <div class="vehicule ">
+               <div class ="miniature">
+                   <img src="../img/Profil_wireframe.png" alt="miniature">
+                   <img src="../img/Profil_wireframe.png" alt="miniature">
+                   <img src="../img/Profil_wireframe.png" alt="miniature">
+               </div>
+               <img src="../img/Profil_wireframe.png" alt="vehicule">
+           </div>
+
+            <!-- Description + bouton  -->
+           <div>
+               <div>
+                   <fieldset>
+                        <input type="checkbox" id="" name="casque">
+                        <img src="../img/casque_blanc.png" alt="miniature">
+                        <img src="../img/gants.png" alt="miniature">
+                        <input type="checkbox" id="horns" name="gants">
+                   </fieldset>
+               </div>
+               <div>
+                   <h2>Description</h2>
+                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                   </br> Distinctio iste rem, illum culpa labore alias voluptate, 
+                   </br>delectus officia tempore exercitationem et esse laboriosam eligendi quam inventore?
+                   </br> Explicabo aliquid iste suscipit!</p> 
+               </div>
+               <div>
+                   <button>Réserver</button>
+                   <button>Contacter</button>
+               </div>
+           </div>
+           <!-- Fin detail de l'annonce version static -->
+       </section>
+
+		<!--Zone de Presse-->
+		<div class="presse">
+
+			<a href=""> <img src="../img/presse.png"></a>
+			<a href=""> <img src="../img/presse.png"></a>
+			<a href=""> <img src="../img/presse.png"></a>
+			<p id="ppresse">Ils parlent de nous !</p>
+			<a href=""> <img src="../img/presse.png"></a>
+			<a href=""> <img src="../img/presse.png"></a>
+			<a href=""> <img src="../img/presse.png"></a>
+	
+		</div>
+		
+		<!--Début du Footer-->
+		<footer>
+	
+			<!--Réseaux Sociaux-->
+			<div class="social">
+				<a href=""><img src="../img/facebook.png"></a>
+				<a href=""><img src="../img/google.png"></a>
+				<a href=""><img src="../img/instagram.png"></a>
+				<a href=""><img src="../img/twitter.png"></a>
+			</div>
+	
+			<!--Mentions Légales et compagnie -->
+			<div class="mentions">
+				<a href="public/commentmarche.html" class="one">Comment ça marche ?</a>
+				<a href="public/bonneconduite.html" class="two">Code de bonne conduite</a>
+				<a href="public/contact.html" class="three">Contact</a>
+				<a href="public/cgu_mentions.html">CGU et mentions légales</a>
+				<a href="public/securite.html">Sécurité</a>
+				<a href="public/appmobile.html">Application mobile</a>
+				<a href="public/partenaire.html">Nos partenaires</a>
+				<a href="public/faq.html">FAQ</a>
+				<a href="#presse">Presse</a>
+			</div>
+	
+		</footer>
+		<!--Fin du Footer-->
+	</body>
+	<!--Fin du Body-->
 </html>
 
