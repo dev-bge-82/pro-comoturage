@@ -1,6 +1,11 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.4 --
++ logged.html (Statique : Fait | CSS : Fait |  )
++ Formatage du Code
++ Commentaire
+
 -- v0.0.3 --
 + Template
 + Image

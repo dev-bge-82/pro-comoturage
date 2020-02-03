@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+  font: "roboto"
+}
+
 header {
   height: 150px;
+  padding-left : 2%;
+  background-color: linen;
 }
 
 a:visited {
@@ -24,7 +33,7 @@ a:active {
 }
 
 #container {
-  width : 85%;
+  width : 80%;
   height: 100%;
   background-color: linen;
   float : right;
@@ -38,25 +47,57 @@ a:active {
   font-size: 2em;
 }
 
-.h_txtg { /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
-  float : left;
-  margin-bottom: 5px;
+/* Allignements des href pour le menu profil en grille */
+.menuprofil {
+  display: grid;
+  width: 40%;
+  float: right;
+  margin-top: 30px;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: minmax(30px, auto);
 }
 
-.h_txtg a { /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+/* Menu profil Header */
+#monprofil {
+  font-size: 0.5em;
+  text-decoration: none;
+  margin-left: 80%;
+}
+#sedeconnecter {
+  font-size: 0.5em;
+  text-decoration: none;
+  margin-left: 80%;
+}
+#mestrajets {
+  font-size: 0.5em;
+  text-decoration: none;
+  margin-left: 80%;
+}
+#mesmessages {
+  font-size: 0.5em;
+  text-decoration: none;
+  margin-left: 80%;
+}
+/* Menu profil Header */
+
+.h_txtg { /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+  float : left;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.h_txtg a {
   padding : 10px;
   text-decoration: none;
 
 }
 
-.h_txtd { /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+.userpic { /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
   float : right;
+  margin-right: 30px;
+  padding-top: 12px;
 }
-
-.h_txtd a { /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
-  text-decoration: none;
-}
-
 .presse { /* TOUT LES LIENS / IMAGES PRESSE */
     display: flex;
     flex-direction: row;
