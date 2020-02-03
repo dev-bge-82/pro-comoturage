@@ -14,7 +14,7 @@ a:active {
 
 
 #logo {
-  background-image: url("/img/logoNoir.png");
+  background-image: url("logo.png");
   background-repeat : no-repeat;
   background-size : contain; /* Faire en sorte que l'image prenne la totalité de son contenneur. */
   background-color: linen;
