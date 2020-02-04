@@ -113,3 +113,156 @@ header {
     grid-row: 1;
   }
   /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+  /**** Début CSS liste annonces ****/
+/****      Par Bérengère       ****/
+.annonce {  /**** DIV DE L'ENSEMBLE DES ELEMENTS DE L'ANNONCE ****/
+  width: 100%;
+  padding: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.description {   /**** ELEMENT CENTRAL AVEC LE DESCRIPTIF ****/
+  border-radius: 400px;
+  width: 250px;
+  padding: 10px;
+  height: 250px;
+  margin-left: 25px;
+  background: grey;
+  color: white;
+
+
+}
+
+.description .user {
+  position: relative;
+  top: 25px;
+  left: 35px;
+
+
+}
+
+.avis {     /**** DIV D'ALIGNEMENT DES CASQUE POUR LES AVIS ****/
+
+
+  position: relative;
+  top: 30px;
+  left: 25px;
+
+}
+
+.avis .casque {
+  display: inline-block;
+  margin: 0;
+
+}
+
+.description img {
+  width: 20px;
+
+
+}
+
+.description .depart {
+  position: relative;
+  top: 45px;
+  left: 10px;
+  width: 500px;
+}
+
+.description .arrivee {
+  position: relative;
+  top: 60px;
+  left: 50px;
+  width: 500px;
+}
+
+.description .jour {
+  position: relative;
+  top: 85px;
+  left: 110px;
+}
+
+.description .horaire {
+
+  position: relative;
+  top: 68px;
+  left: 180px;
+}
+
+.description .tarif {
+  position: relative;
+  top: 90px;
+  left: 110px;
+}
+
+.photo {    /**** POUR LA PHOTO DE PROFIL ****/
+  border-radius: 200px;
+  width: 150px;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.equipement {    /**** DIV ENGLOBANTE POUR L'EQUIPEMENT DISPONIBLE ****/
+  border-radius: 100px;
+  width: 85px;
+  height: 85px;
+  padding: 30px;
+  background: lightgray;
+  bottom: 45px;
+  position: relative;
+  left: -20px;
+  z-index: -1;
+}
+
+.equip_tick {
+  display: block;
+  float: left;
+  margin: 5px;
+
+}
+
+.equip_type {
+  display: block;
+  float: right;
+}
+
+
+.tick {
+  display: block;
+  flex-direction: row;
+  margin: 2px;
+  border: 1px solid;
+  padding: 2px;
+  background: white;
+}
+
+.casque {
+  display: block;
+  flex-direction: row;
+  width: 25px;
+  margin: 5px;
+}
+
+.gants {
+  display: block;
+  flex-direction: row;
+  width: 25px;
+  margin: 5px;
+}
+
+.wrapper_annonces {    /**** GRILLE D'ALIGNEMENT EN COLONNE DES ANNONCES ****/
+  margin-left: 30em;
+  display: grid;
+  grid-template-columns: repeat(2, 25em);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+/**** Fin CSS liste annonces ****/
+/****   Par Bérengère        ****/
