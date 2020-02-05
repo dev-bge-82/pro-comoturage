@@ -1,6 +1,9 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.6 --
++ Ajout du javascript pour le fichier index.html ainsi que le formulaire dans ce même fichier
+
 -- v0.0.5 --
 + detailsannonces.html (Statique : Fait | CSS : encours |  )
 
