@@ -119,9 +119,17 @@ footer {
 
 #s1 > div {
     text-align: center;
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
 }
 
+.equipement {
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    background-color: gray;
+    width: max-content;
+    height: min-content;
+
+}
