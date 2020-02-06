@@ -1,6 +1,12 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.7 --
++ Retrait du bandeau presse dans detailsannonces.html et listeannonces.html
++ Mise du CSS detailsannonces.css et listeannonces.css par rapport au bandeau presse
++ Mise à jour de l'ancrage du bandeau presse sur toutes les pages html
++ Mise à jour du template
+
 -- v0.0.6 --
 + Ajout du javascript pour le fichier index.html ainsi que le formulaire dans ce même fichier
 + Correction de quelque ligne de code

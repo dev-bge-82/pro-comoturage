@@ -57,15 +57,7 @@ a:active {
 .h_txtd a { /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
     text-decoration: none;
 }
-  
-.presse { /* TOUT LES LIENS / IMAGES PRESSE */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.2em;
-    align-items: center;
-}
-  
+
 footer {
     width : 100%;
     height: 150px;
