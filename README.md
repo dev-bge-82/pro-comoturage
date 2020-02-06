@@ -3,6 +3,8 @@ Projet Comoturage
 
 -- v0.0.6 --
 + Ajout du javascript pour le fichier index.html ainsi que le formulaire dans ce même fichier
++ Correction de quelque ligne de code
++ Ajout d'image
 
 -- v0.0.5 --
 + detailsannonces.html (Statique : Fait | CSS : encours |  )
