@@ -124,12 +124,19 @@ footer {
 
 .equipement {
     display: grid;
-    grid-template-columns: repeat(2, 50px);
+    grid-template-columns: repeat(2, 30px);
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
     background-color: gray;
-    width: max-content;
-    height: min-content;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
 
+.equipement > img {
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
 }
