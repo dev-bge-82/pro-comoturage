@@ -114,7 +114,6 @@ footer {
     grid-template-columns: repeat(2, 600px);
     margin-left : 10%;
     margin-right : 10%;
-
 }
 
 #s1 > div {
@@ -139,4 +138,43 @@ footer {
     width: 30px;
     height: 30px;
     padding-top: 7px;
+}
+
+.buttongauche {
+    text-align: start;
+}
+
+.buttondroite {
+    text-align: end;
+}
+
+.description {
+    text-align: justify;
+}
+
+.donnees {
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.depart {
+    text-align: start;
+}
+
+.arriver {
+    text-align: end;
+}
+
+.heure {
+    float: right;
+}
+
+.date {
+    float: left;
+}
+
+.prix {
+    clear: both;
+    text-align: end;
 }
