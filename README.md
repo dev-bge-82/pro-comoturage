@@ -4,6 +4,7 @@ Projet Comoturage
 -- v0.0.8 --
 + Mise à jour du css logged.css (pour aligner texte doite du header avec photo profil)
 + Mise à jour detailsannonces.html et detailsannonces.css
++ Ajout de JQuery
 
 -- v0.0.7 --
 + Retrait du bandeau presse dans detailsannonces.html et listeannonces.html
