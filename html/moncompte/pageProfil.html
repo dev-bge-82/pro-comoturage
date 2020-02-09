@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil</title>
+
+    <link rel="stylesheet" href="../../css/pageProfil.css">
+</head>
+
+<body>
+
+    <!--Début du Header-->
+    <header>
+        <!--Logo-->
+        <div id="logo"></div>
+        <!--Container Bannière et Menu-->
+        <div id="container" class="banniere">
+
+            <div id="bottomdiv">
+
+                <!--ça correspond à ( rechercher et proposer ) -->
+                <div class="h_txtg">
+                    <a id="recherche_index" href="">Recherche</a>
+                    <a id="proposer_index" href="">Proposer</a>
+                </div>
+
+                <!--ça correspond à ( incription et connexion ) -->
+                <div class="h_txtd">
+                    <a id="inscription_index" href="">Inscription</a>
+                    <a id="connexion_index" href="">Connexion</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <!--Fin du Header-->
+
+    <div id="onglets">
+        <a id="profil" href="...">
+            <h2>MON PROFIL</h2>
+        </a>
+        <a id="trajets" href="...">
+            <h2>MES TRAJETS</h2>
+        </a>
+        <a id="messages" href="...">
+            <h2>MES MESSAGES</h2>
+        </a>
+    </div>
+
+    <!--div pour gérer la position des éléments sur le rang 1-->
+    <div id="rang1">
+        <!--insérer la photo-->
+        <div id="photo">
+            <div id="languedepute"></div>
+            <a href="...">Modifier ma photo de profil</a>
+            <p> .png ou .jpg de 3Mo maximum</p>
+        </div>
+
+        <!--créer un bloc pour la mise en page-->
+        <div id="info">
+            <div id="h1">
+                <h1>Informations Personnelles</h1>
+                <img id="crayon" src="../../img/crayon.png" alt="Modifiez votre profil" title="Modifiez votre profil">
+            </div>
+
+            <!--Création d'un tableau qui ira chercher les infos nécessaires dans la base de données-->
+            <table>
+                <tr>
+                    <td>Pseudo : El Diablo</td>
+                    <td class="c2">E-mail : machin-mon-cul@vdm.com</td>
+                <tr>
+                    <td>Nom : Riencomprendre</td>
+                    <td class="c2">Téléphone : 0696665169</td>
+                </tr>
+                <tr>
+                    <td>Prénom : Yvon</td>
+                    <td class="c2">Mot de passe : S@m3r3L@pute</td>
+                </tr>
+                <tr>
+                    <td>Date de naissance : 31/02/69</td>
+                    <!--<td class="c2"></td>-->
+                </tr>
+                <tr>
+                    <td>Adresse : 69 rue bouchée, Montcuq</td>
+                    <!--<td class="c2"></td>-->
+                </tr>
+                <tr>
+                    <td>Permis A : JJ/MM/AA <img id="calendrier" src="../../img/calendrier.png"
+                            alt="le choix dans la date"></td>
+                    <!--<td class="c2"></td>-->
+                </tr>
+                <tr>
+                    <td>Immatriculation : PD-666-KO</td>
+                    <!--<td class="c2"></td>-->
+                </tr>
+            </table>
+        </div>
+
+        <!--Le paragraphe déscription-->
+        <div id="description">
+            <h2>Ma description :</h2>
+            <p id="par1">Ne communiquez aucune information personnelle dans votre description</p>
+            <p>
+                Bonjour, je m'appelle Yvon Riencomprendre, j'ai 50 ans, et j'aime bien les fifilles.
+                Quibus ita sceleste patratis Paulus cruore perfusus reversusque ad principis castra
+                multos coopertos paene catenis adduxit in squalorem deiectos atque maestitiam, quorum
+                adventu intendebantur eculei uncosque parabat carnifex et tormenta. et ex is proscripti
+                sunt plures actique in exilium alii, non nullos gladii consumpsere poenales. nec enim
+                quisquam facile meminit sub Constantio, ubi susurro tenus haec movebantur, quemquam absolutum.
+            </p>
+        </div>
+    </div>
+
+    <!--Photos du ou des véhicules-->
+    <div id="rang2">
+        <div id="vehicule">
+            <h2>Mon (mes) véhicule(s) :</h2>
+            <div id="moto">
+                <img id="moto1" src="../../img/logoBlanc.png" alt="moto1">
+                <img id="moto2" src="../../img/logoBlanc.png" alt="ajouter un véhicule">
+            </div>
+            <h2>Mes équipements :</h2>
+            <div id="equipement">
+                <div id="casque">
+                    <img class="tick" src="../../img/tick.png" alt="Tick">
+                    <div id="pictocasque"></div>
+                </div>
+                <div id="gants">
+                    <img class="tick" src="../../img/tick.png" alt="Tick">
+                    <div id="pictogants"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Description du ou des véhicules-->
+        <div id="last">
+            <h2>Description de mon (mes) véhicule(s)</h2>
+            <p>
+                J'ai une Yamahmotokiekc 5000cc. Quand j'accélère je grimpe au rideau
+                Quibus ita sceleste patratis Paulus cruore perfusus reversusque ad principis castra
+                multos coopertos paene catenis adduxit in squalorem deiectos atque maestitiam, quorum
+                adventu intendebantur eculei uncosque parabat carnifex et tormenta. et ex is proscripti
+                sunt plures actique in exilium alii, non nullos gladii consumpsere poenales. nec enim
+                quisquam facile meminit sub Constantio, ubi susurro tenus haec movebantur, quemquam absolutum.
+            </p>
+            <div id="fin">
+                <p>Je suis passager</p>
+                <div id="conducteur">
+                    <img class="tick" id="tick" src="../../img/tick.png" alt="Tick">
+                    <p>Je suis conducteur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Début du Footer-->
+    <footer>
+
+        <!--Réseaux Sociaux-->
+        <div class="social">
+            <a href=""><img src="../../img/facebook.png"></a>
+            <a href=""><img src="../../img/google.png"></a>
+            <a href=""><img src="../../img/instagram.png"></a>
+            <a href=""><img src="../../img/twitter.png"></a>
+        </div>
+
+        <!--Mentions Légales et compagnie -->
+        <div class="mentions">
+            <a href="../public/commentmarche.html" class="one">Comment ça marche ?</a>
+            <a href="../public/bonneconduite.html" class="two">Code de bonne conduite</a>
+            <a href="../public/contact.html" class="three">Contact</a>
+            <a href="../public/cgu_mentions.html">CGU et mentions légales</a>
+            <a href="../public/securite.html">Sécurité</a>
+            <a href="../public/appmobile.html">Application mobile</a>
+            <a href="../public/partenaire.html">Nos partenaires</a>
+            <a href="../public/faq.html">FAQ</a>
+            <a href="../../html/index.html#presse">Presse</a>
+        </div>
+
+    </footer>
+    <!--Fin du Footer-->
+</body>
+</html>

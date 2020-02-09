@@ -4,6 +4,8 @@ Projet Comoturage
 -- v0.0.9 --
 + Ajouts d'images
 + Ajouts des liens de presses avec leur images dans le fichier index.html
++ profil.html (Statique : Fait | CSS : Fait |  )
++ Formatage du code
 
 -- v0.0.8 --
 + Mise à jour du css logged.css (pour aligner texte doite du header avec photo profil)
