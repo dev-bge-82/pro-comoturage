@@ -1,6 +1,10 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.9 --
++ Ajouts d'images
++ Ajouts des liens de presses avec leur images dans le fichier index.html
+
 -- v0.0.8 --
 + Mise à jour du css logged.css (pour aligner texte doite du header avec photo profil)
 + Mise à jour detailsannonces.html et detailsannonces.css
@@ -13,9 +17,9 @@ Projet Comoturage
 + Mise à jour du template
 
 -- v0.0.6 --
-+ Ajout du javascript pour le fichier index.html ainsi que le formulaire dans ce même fichier
++ Ajouts du javascript pour le fichier index.html ainsi que le formulaire dans ce même fichier
 + Correction de quelque ligne de code
-+ Ajout d'image
++ Ajouts d'images
 
 -- v0.0.5 --
 + detailsannonces.html (Statique : Fait | CSS : encours |  )
@@ -27,7 +31,7 @@ Projet Comoturage
 
 -- v0.0.3 --
 + Template (Statique : Fait | CSS : Fait |  )
-+ Image
++ Images
 + listeannonces.html (Statique : Fait | CSS : Fait | js :) 
 + Formatage du Code
 + CSS + Commentaire
