@@ -1,7 +1,7 @@
 # comoturage
 Projet Comoturage
 -- v0.0.11 --
-text de franck
++ Ajout d'images (réseaux sociaux)
 
 -- v0.0.10 --
 + Ajout du backup 10-02-2020
