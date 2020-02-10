@@ -4,6 +4,7 @@ Projet Comoturage
 -- v0.0.9 --
 + Ajouts d'images
 + Ajouts des liens de presses avec leur images dans le fichier index.html
++ incriptionconnection.html (Statique : Fait | CSS : Fait |  )
 + profil.html (Statique : Fait | CSS : Fait |  )
 + Formatage du code
 
