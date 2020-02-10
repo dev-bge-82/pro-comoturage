@@ -1,6 +1,11 @@
 # comoturage
 Projet Comoturage
 
+-- v0.0.10 --
++ Mise à jours du template
++ Mise à jout du maillage de toute les pages existantes
+
+
 -- v0.0.9 --
 + Ajouts d'images
 + Ajouts des liens de presses avec leur images dans le fichier index.html
