@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Comoturage</title>
+
+    <!-- Feuille de Style en cascade -->
+    <link href="../../css/inscriptionConnexion.css" rel="stylesheet">
+    <!-- Javascript -->
+    <script src="../../scripts/listeannonces.js" type="text/javascript"></script>
+
+</head>
+<!--Début du Body-->
+<body>
+<!--Début du Header-->
+<header>
+    <!--Logo-->
+    <div id="logo"></div>
+    <!--Container Bannière et Menu-->
+    <div class="banniere" id="container">
+
+        <div id="bottomdiv">
+
+            <!--ça correspond à ( rechercher et proposer ) -->
+            <div class="h_txtg">
+                <a href="" id="recherche_index">Recherche</a>
+                <a href="" id="proposer_index">Proposer</a>
+            </div>
+
+            <!--ça correspond à ( incription et connexion ) -->
+            <div class="h_txtd">
+                <a href="" id="inscription_index">Inscription</a>
+                <a href="" id="connexion_index">Connexion</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+<!--Fin du Header-->
+
+<!-- PAGE INSCRIPTION/CONNEXION PAR BERENGERE -->
+<section id="sign_in_register">
+
+    <!--Formulaire connexion-->
+    <div class="connexion">
+        <h2>Se connecter</h2>
+        <div class="reseau">
+            <a alt="facebook" href=""><img class="facebook" src="../../img/facebook.png"></a>
+            <a alt="googgle" href=""><img class="google" src="../../img/google.png"></a>
+        </div>
+
+        <form class="form">
+            <input class="mail" type="text" value="Adresse mail"><img alt="tick" class="tick" src="../../img/tick.png">
+            <input class="mdp" type="text" value="Mot de passe"><img alt="tick" class="tick" src="../../img/tick.png">
+            <button class="bouton" type="submit">Connexion</button>
+        </form>
+    </div>
+
+    <!--Formulaire inscription-->
+    <div class="inscription">
+        <h2>S'inscrire</h2>
+        <div class="reseau">
+            <a alt="facebook" href=""><img class="facebook" src="../../img/facebook.png"></a>
+            <a alt="googgle" href=""><img class="google" src="../../img/google.png"></a>
+        </div>
+
+        <form class="form">
+            <div class="input_container"><input class="pseudo" type="text" value="Pseudo"><img alt="close" class="close"
+                                                                                               src="../../img/close_160.png">
+            </div>
+            <img alt="tick" class="tick" src="../../img/tick.png">
+
+            <div class="input_container"><input class="mail" type="text" value="Adresse mail"><img alt="close"
+                                                                                                   class="close"
+                                                                                                   src="../../img/close_160.png">
+            </div>
+            <img alt="tick" class="tick" src="../../img/tick.png">
+
+            <!-- Pour le mot de passe le "input" sera de type "password" je l'ai mis en type "text" pour éviter
+            l'encryptage pour le moment. -->
+            <div class="input_container"><input class="mdp" type="text" value="Mot de passe"><img alt="close"
+                                                                                                  class="close"
+                                                                                                  src="../../img/close_160.png">
+            </div>
+            <img alt="tick" class="tick" src="../../img/tick.png">
+
+            <!-- Pour vérifier le mot de passe le "input" sera de type "password" je l'ai mis en type "text" pour éviter
+            l'encryptage pour le moment. -->
+            <div class="input_container"><input class="verif" type="text" value="Verification du mot de passe"><img
+                    alt="close" class="close" src="../../img/close_160.png"></div>
+            <img alt="tick" class="tick" src="../../img/tick.png">
+
+            <div class="paraf">
+                <p class="paraf_1">Vous êtes :</p>
+               <div class="choix"><p>Conducteur</p>
+                <p>Passager</p>
+                <img alt="tick" class="tick" src="../../img/tick.png">
+                <img alt="tick" class="tick" src="../../img/tick.png">
+               </div>
+            </div>
+            <button class="bouton" type="submit">Valider</button>
+        </form>
+    </div>
+</section>
+
+
+
+<!--Début du Footer-->
+<footer>
+
+    <!--Réseaux Sociaux-->
+    <div class="social">
+        <a href=""><img src="../../img/facebook.png"></a>
+        <a href=""><img src="../../img/google.png"></a>
+        <a href=""><img src="../../img/instagram.png"></a>
+        <a href=""><img src="../../img/twitter.png"></a>
+    </div>
+
+    <!--Mentions Légales et compagnie -->
+    <div class="mentions">
+        <a class="one" href="../public/commentmarche.html">Comment ça marche ?</a>
+        <a class="two" href="../public/bonneconduite.html">Code de bonne conduite</a>
+        <a class="three" href="../public/contact.html">Contact</a>
+        <a href="../public/cgu_mentions.html">CGU et mentions légales</a>
+        <a href="../public/securite.html">Sécurité</a>
+        <a href="../public/appmobile.html">Application mobile</a>
+        <a href="../public/partenaire.html">Nos partenaires</a>
+        <a href="../public/faq.html">FAQ</a>
+        <a href="../../html/index.html#presse">Presse</a>
+    </div>
+
+</footer>
+<!--Fin du Footer-->
+</body>
+<!--Fin du Body-->
+</html>

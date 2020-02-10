@@ -1,0 +1,357 @@
+header {
+    height: 150px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: white;
+}
+
+
+#logo {
+    background-image: url("../img/logoNoir.png");
+    background-repeat: no-repeat;
+    background-size: contain; /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+    background-color: linen;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    width: 85%;
+    height: 100%;
+    background-color: linen;
+    float: right;
+    position: relative;
+}
+
+#bottomdiv {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 2em;
+}
+
+.h_txtg { /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.h_txtg a { /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+    padding: 10px;
+    text-decoration: none;
+
+}
+
+.h_txtd { /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+    float: right;
+}
+
+.h_txtd a { /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: linen;
+    position: relative;
+    font-size: 1em;
+}
+
+.social {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 150px;
+    padding-top: 40px;
+}
+
+.social a {
+    padding: 10px;
+}
+
+.mentions { /* TOUT LES LIENS DU FOOTER */
+    display: grid;
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(30px, auto);
+}
+
+.mentions a {
+    text-decoration: none;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+/* ENCADREMENT DE LA PARTIE CONNEXION */
+/**** PAR BERENGERE ****/
+
+.connexion { /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "CONNEXION" ***/
+    width: 30em;
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 28em;
+    min-width: 300px;
+}
+
+.connexion h2 {
+    margin: 0;
+    width: 150px;
+    padding-top: 25px;
+    margin-left: 30px;
+}
+
+.reseau { /*** DIV DES ICONES POUR LA CONNEXION PAR RESEAUX SOCIAUX ***/
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.reseau .facebook {
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+.reseau .google {
+    width: 30px;
+    height: 30px;
+}
+
+.connexion .form { /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+    height: 287px;
+    padding-top: 90px;
+}
+
+input.mail {
+    width: 80%;
+    height: 20px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input.mdp {
+    width: 80%;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 35px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tick {
+    vertical-align: middle;
+    margin-left: 15px;
+
+}
+
+.connexion .bouton {
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    margin-top: 12em;
+    margin-left: 14em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 0px;
+    -webkit-box-shadow: 0px 5px 4px 0px grey;
+    box-shadow: 0px 5px 4px 0px grey;
+}
+
+.connexion .bouton:hover {
+    background-color: grey;
+    -webkit-box-shadow: 0px 5px 4px 0px darkgray;
+    box-shadow: 0px 5px 4px 0px darkgray;
+}
+
+/* ENCADREMENT DE LA PARTIE "INSCRIPTION" */
+/**** PAR BERENGERE ****/
+
+.inscription { /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "INSCRIPTION" ***/
+    width: 40em;
+    background-color: lightgray;
+    border-radius: 20px;
+    height: 100%;
+    min-width: 415px;
+    margin-left: 5%;
+
+}
+
+.inscription h2 {
+    margin: 0;
+    width: 150px;
+    padding-top: 25px;
+    margin-left: 30px;
+
+}
+
+.inscription .reseau_2 {
+    width: 100px;
+    float: right;
+    margin-right: 60px;
+}
+
+.reseau_2 .facebook {
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+}
+
+.reseau_2 .google {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.inscription .form { /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+    width: 100%;
+    min-width: 415px;
+    margin-top: 5%;
+}
+
+input.pseudo {
+    width: 86%;
+    height: 20px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.inscription input.mail {
+    width: 86%;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+
+.inscription input.mdp {
+    width: 86%;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+}
+
+input.verif {
+
+    width: 86%;
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.input_container { /*** DIV POUR LES "INPUT" AFIN D'INCLURE LES ELEMENTS "CLOSE" DANS LE CADRE DE SAISI ***/
+    background-color: white;
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    height: 33px;
+    display: inline-block;
+    min-width: 300px;
+}
+
+.paraf {
+    height: 90px;
+    margin-left: 30px;
+}
+
+.paraf_1 {
+    margin: 0;
+    font-style: italic;
+}
+
+.paraf .choix {
+    width: 198px;
+    height: 70px;
+    margin-top: 12px;
+    margin-left: 70px;
+}
+
+.choix p {
+    width: 100px;
+    float: right;
+    margin: 5px;
+}
+
+.choix .tick {
+    background-color: white;
+    border: 1px solid black;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 45px;
+}
+
+.inscription .bouton {
+    width: 100px;
+    height: 25px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 1.2em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border: solid 0px;
+    -webkit-box-shadow: 0px 5px 4px 0px grey;
+    box-shadow: 0px 5px 4px 0px grey;
+    margin-inline: auto;
+}
+
+.inscription .bouton:hover {
+    background-color: grey;
+    -webkit-box-shadow: 0px 5px 4px 0px darkgray;
+    box-shadow: 0px 5px 4px 0px darkgray;
+}
+
+
+#sign_in_register { /**** GRILLE D'ALIGNEMENT EN COLONNE DES FORMULAIRES ****/
+    margin-top: 2.5em;
+    margin-left: 20em;
+    margin-bottom: 5em;
+    display: flex;
+}
+/*********** FIN ***********/
