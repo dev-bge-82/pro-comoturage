@@ -2,8 +2,10 @@
 Projet Comoturage
 
 -- v0.0.10 --
-+ Mise à jours du template
-+ Mise à jout du maillage de toute les pages existantes
++ Mise à jour du template
++ Mise à jour du maillage de toute les pages existantes
++ Mise à jour du css de toutes les pages existantes pour corriger un BUG du footer
+ (placement des icones des réseaux sociaux)
 
 
 -- v0.0.9 --

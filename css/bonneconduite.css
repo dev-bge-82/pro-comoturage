@@ -113,3 +113,39 @@ footer {
   grid-row: 1;
 }
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.fieldset
+    {
+        margin: 10px;
+        justify-content: space-between;
+        border: 0;    }
+
+.article
+    {
+        float: left;
+        margin-top: 3%;
+        width: 50%;
+        text-align: left;   
+    }
+
+.aside
+    {
+        float: right;
+        margin-top: 5%;
+        width: 50%;
+        text-align: left;
+    }            
+    
+.titulo1
+    {
+    color: darkcyan;
+    text-align: center;  
+    }            
+    
+.titulo2
+    {
+    color: #03224C;
+    font-style: initial;
+    text-align: left;
+    margin-inline-start: auto;
+    }        
