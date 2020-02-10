@@ -77,12 +77,12 @@ footer {
   width: 15%;
   height: 100%;
   float: left;
-  margin-left : 150px;
+  margin-left : 10%;
   padding-top: 40px;
 }
 
 .social a {
-  padding: 10px;
+  padding: 5px;
 }
 
 .mentions { /* TOUT LES LIENS DU FOOTER */
