@@ -4,6 +4,7 @@ Projet Comoturage
 text de franck
 
 -- v0.0.10 --
++ Ajout du backup 10-02-2020
 + Mise à jour du template
 + Mise à jour du maillage de toute les pages existantes
 + Mise à jour du css de toutes les pages existantes pour corriger un BUG du footer
