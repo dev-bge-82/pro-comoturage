@@ -1,5 +1,7 @@
 # comoturage
 Projet Comoturage
+-- v0.0.11 --
+text de franck
 
 -- v0.0.10 --
 + Mise à jour du template
