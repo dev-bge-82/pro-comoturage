@@ -119,11 +119,7 @@ form {
   border-radius: 0;
   -webkit-appearance: none;
 }		 
-#formP{
-  display: none;
-  }
 .msearch{
-  float: right;
   margin-right: 3% 5%;
   background-color:#b6b0af;
   height: 28%;
