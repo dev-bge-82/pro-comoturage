@@ -118,6 +118,9 @@ form {
   border: 1px dotted #999;
   border-radius: 0;
   -webkit-appearance: none;
+}
+#formP {
+  display:none;
 }		 
 .msearch{
   margin-right: 3% 5%;

@@ -4,7 +4,7 @@ function cacherR(){
 	$("#btn_proposer").css("background-color","f3cbc4"), //Quand on clique sur le boutoun rechercher "cacherP", le texte devient vert.
 	$("#btn_rechercher").css("background-color","white") //Quand on clique sur le boutoun rechercher "cacherP", le texte devient noir.
 	}
-	function cacherP(){
+function cacherP(){
 	$("#formP").css("display","none"),
 	$("#formR").css("display","block"),
 	$("#btn_rechercher").css("background-color","f3cbc4"),//Quand on clique sur le boutoun rechercher "cacherP", le texte devient vert.
