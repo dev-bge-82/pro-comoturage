@@ -134,6 +134,10 @@ form {
   margin:0px 3px;
 }
 .send{
-  margin:0 50%;
-  width:40%;
-}				
+  text-align: center;
+  width:10%;
+}
+
+button.send {
+  margin-left: 45%;
+}
