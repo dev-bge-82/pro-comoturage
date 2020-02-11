@@ -1,7 +1,9 @@
 # comoturage
+
 Projet Comoturage
 -- v0.0.11 --
 + Ajout d'images (réseaux sociaux)
++ Mise à jour de toutes les pages du site actuelle pour prendre on compte la charte graphique
 
 -- v0.0.10 --
 + Ajout du backup 10-02-2020
