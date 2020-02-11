@@ -9,8 +9,8 @@
 	<!-- Feuille de Style en cascade -->
 	<link rel="stylesheet" href="../css/index.css">
 	<!-- Javascript -->
-	<link type="text/javascript" href="../scripts/index.js">
-
+	<script type="text/javascript" src="../scripts/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="../scripts/index.js"></script>
 
 </head>
 	<!--Début du Body-->
@@ -45,41 +45,41 @@
 
 		<!-- SECTION 1 (Rechercher / Proposer) -->
 		<section id="s1">
-
-			<button id="btn_rechercher" onclick="cacherP()">Rechercher</button>	
-			<button id="btn_proposer" onclick="cacherR()">Proposer</button>	
-			<!-- Formulaire de Recherche-->
-			<form id="formR" action="rechercher.html" methode="post">
-				<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
-				<label>Date de départ</label>
-				<input type="date" name="dd"></label>
-				<label>Heure de départ</label>
-				<input type="time" name="td"> <br>
-				<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
-				<label for="date d'arrivée">Date d'arrivée</label>
-				<input type="date" name="da">
-				<label for="heure d'arrivée">Heure d'arrivée</label>
-				<input type="time" name="ta"></br>
-				<button name="send" type="submit">Valider</button>
-				</form>	
-			<!-- Formulaire de Proposition-->
-			<form id="formP" action="proposer.html" methode="post">
-				<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
-				<label>Date de départ</label>
-				<input type="date" name="dd"></label>
-				<label>Heure de départ</label>
-				<input type="time" name="td"> <br>
-				<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
-				<label for="date d'arrivée">Date d'arrivée</label>
-				<input type="date" name="da">
-				<label for="heure d'arrivée">Heure d'arrivée</label>
-				<input type="time" name="ta"></br>
-				<label for="accesoires">Accessoires fournis : </label> </br>
-				<input type="checkbox"name="casque"value="1"checked="checked"/>Casque</br>
-				<input type="checkbox"name="gants"value="2"checked="checked"/>Gants</br>
-				<button name="send" type="submit">Valider</button>
-				</form>
-			
+			<div class="msearch">
+				<a id="btn_rechercher" onclick="cacherP()">Rechercher</a>
+				<a id="btn_proposer" onclick="cacherR()">Proposer</a> <br>
+				<!-- Formulaire de Recherche-->
+				<form id="formR" action="rechercher.html" methode="post">
+					<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
+					<label>Date de départ</label>
+					<input type="date" name="dd"></label>
+					<label class="hdd" >Heure de départ</label>
+					<input type="time" name="td"> <br><br>
+					<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
+					<label class="darrivee"  for="date d'arrivée">Date d'arrivée</label>
+					<input 	class="hdate" type="date" name="da">
+					<label class="harivée" for="heure d'arrivée">Heure d'arrivée</label>
+					<input type="time" name="ta"></br><br>
+					<button  class="send" name="send" type="submit">Valider</button>
+					</form>				<!-- Formulaire de Proposition-->
+				<form id="formP" action="proposer.html" methode="post">
+					<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
+					<label>Date de départ</label>
+					<input type="date" name="dd"></label>
+					<label>Heure de départ</label>
+					<input type="time" name="td"> <br><br>
+					<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
+					<label class="darrivee" for="date d'arrivée">Date d'arrivée</label>
+					<input type="date" name="da">
+					<label  class="harivée" for="heure d'arrivée">Heure d'arrivée</label>
+					<input type="time" name="ta"></br>
+					<label for="accesoires">Accessoires fournis : </label> </br>
+					<input type="checkbox"name="casque"value="1"checked="checked"/>
+					Casque</br>
+					<input type="checkbox"name="gants"value="2"checked="checked"/>Gants</br>
+					<button class="send" name="send" type="submit">Valider</button>
+				</form>						
+				</div>			
 		</section>
 
 		<!-- SECTION 2 (Dernières annonces comme ça c'est clair)-->

@@ -113,3 +113,28 @@ footer {
   grid-row: 1;
 }
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+form {
+  border: 1px dotted #999;
+  border-radius: 0;
+  -webkit-appearance: none;
+}		 
+#formP{
+  display: none;
+  }
+.msearch{
+  float: right;
+  margin-right: 3% 5%;
+  background-color:#b6b0af;
+  height: 28%;
+}
+.harivée{
+  margin:0px 3px;
+}
+.darrivee{
+  margin:0px 3px;
+}
+.send{
+  margin:0 50%;
+  width:40%;
+}				
