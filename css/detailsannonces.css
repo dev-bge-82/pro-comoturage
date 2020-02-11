@@ -154,6 +154,7 @@ header {
     width: 50%;
     text-align: center;
     justify-content: center;
+    place-self: center;
 }
 
 .depart {
@@ -175,4 +176,14 @@ header {
 .prix {
     clear: both;
     text-align: end;
+}
+
+.miniature > img {
+  height: 100px;
+  width: 100px;
+}
+
+.vehicule > img {
+  height: 300px;
+  width: 300px;
 }
