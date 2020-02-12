@@ -1,6 +1,9 @@
 # comoturage
 
 Projet Comoturage
+-- v0.0.12 --
++ contact.html (Statique : Fait | CSS : Fait |  )
+
 -- v0.0.11 --
 + Ajout d'images (réseaux sociaux)
 + Mise à jour de toutes les pages du site actuelle pour prendre on compte la charte graphique
