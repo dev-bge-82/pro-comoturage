@@ -1,6 +1,10 @@
 # comoturage
 
 Projet Comoturage
+-- v0.0.13 --
++ Ajouts du css pour les boutons dans les pages index.css et contact.css
++ Formatage du code
+
 -- v0.0.12 --
 + contact.html (Statique : Fait | CSS : Fait |  )
 
