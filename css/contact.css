@@ -97,7 +97,6 @@ footer {
     text-decoration: none;
 }
 
-
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
 
 .one {
@@ -115,7 +114,6 @@ footer {
     grid-row: 1;
 }
 
-
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
 
 form {
@@ -132,7 +130,6 @@ form div+div {
     margin-top: 1em;
 }
 
-
 /*  label {
     Pour être sûrs que toutes les étiquettes ont même taille et sont correctement alignées
     display: inline-block;
@@ -141,8 +138,7 @@ form div+div {
   }
 */
 
-input,
-textarea {
+input, textarea {
     /* Pour s'assurer que tous les champs texte ont la même police.
        Par défaut, les textarea ont une police monospace */
     font: 1em sans-serif;
@@ -153,8 +149,7 @@ textarea {
     border: 1px solid #999;
 }
 
-select,
-option {
+select, option {
     /* Pour s'assurer que tous les champs texte ont la même police.
        Par défaut, les textarea ont une police monospace */
     font: 1em sans-serif;
@@ -165,14 +160,12 @@ option {
     border: 1px solid #999;
 }
 
-input:focus,
-textarea:focus {
+input:focus, textarea:focus {
     /* Pour souligner légèrement les éléments actifs */
     border-color: #000;
 }
 
-select:focus,
-option:focus {
+select:focus, option:focus {
     border-color: #000;
 }
 
@@ -201,7 +194,7 @@ button {
     -webkit-box-shadow: 4px 3px 5px #000000;
     -moz-box-shadow: 4px 3px 5px #000000;
 }
-    
+
 button:hover {
     padding: 5px;
     background-color: #044c5c;
@@ -209,4 +202,10 @@ button:hover {
     box-shadow: -5px 5px 4px #7f7f7f;
     -webkit-box-shadow: -5px 5px 4px #7f7f7f;
     -moz-box-shadow: -5px 5px 4px #7f7f7f;
+}
+
+fieldset>p {
+    color: grey;
+    font-style: italic;
+    font-size: 0.8em;
 }

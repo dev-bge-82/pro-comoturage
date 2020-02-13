@@ -3,20 +3,22 @@ header {
 }
 
 a:visited {
-    color: #5F94C2;
-}
-a:hover {
-    color: grey;
-}
-a:active {
-    color: #5F94C2;
+  color: #5F94C2;
 }
 
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: #5F94C2;
+}
 
 #logo {
   background-image: url("../img/logoBlanc.png");
-  background-repeat : no-repeat;
-  background-size : contain; /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* Faire en sorte que l'image prenne la totalité de son contenneur. */
   background-color: #504e4e;
   width: 15%;
   height: 100%;
@@ -24,44 +26,47 @@ a:active {
 }
 
 #container {
-  width : 85%;
+  width: 85%;
   height: 100%;
   background-color: #504e4e;
-  float : right;
-  position : relative;
+  float: right;
+  position: relative;
 }
 
 #bottomdiv {
-  width : 100%;
+  width: 100%;
   position: absolute;
   bottom: 5px;
   font-size: 2em;
 }
 
-.h_txtg { /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
-  float : left;
+.h_txtg {
+  /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+  float: left;
   margin-bottom: 5px;
 }
 
-.h_txtg a { /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
-  padding : 10px;
+.h_txtg a {
+  /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+  padding: 10px;
   text-decoration: none;
-
 }
 
-.h_txtd { /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
-  float : right;
+.h_txtd {
+  /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+  float: right;
 }
 
-.h_txtd a { /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+.h_txtd a {
+  /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
   text-decoration: none;
 }
 
 footer {
-  width : 100%;
+  width: 100%;
   height: 150px;
   background-color: #504e4e;
-  position : relative;
+  position: relative;
   font-size: 1em;
 }
 
@@ -69,7 +74,7 @@ footer {
   width: 15%;
   height: 100%;
   float: left;
-  margin-left : 10%;
+  margin-left: 10%;
   padding-top: 40px;
 }
 
@@ -77,7 +82,8 @@ footer {
   padding: 5px;
 }
 
-.mentions { /* TOUT LES LIENS DU FOOTER */
+.mentions {
+  /* TOUT LES LIENS DU FOOTER */
   display: grid;
   width: 40%;
   float: right;
@@ -92,28 +98,34 @@ footer {
 }
 
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
 .one {
   grid-column: 1;
   grid-row: 1;
 }
+
 .two {
   grid-column: 2;
   grid-row: 1;
 }
+
 .three {
   grid-column: 3;
   grid-row: 1;
 }
+
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
 }
+
 html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -126,17 +138,20 @@ body {
   display: flex;
   min-height: 100vh;
 }
+
 .container {
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
 }
+
 h3 {
   font-size: 1.75rem;
   color: #373D51;
   padding: 1.3rem;
   margin: 0;
 }
+
 .accordion a {
   position: relative;
   display: -webkit-box;
@@ -155,20 +170,23 @@ h3 {
   font-weight: 400;
   border-bottom: 1px solid #E5E5E5;
 }
-.accordion a:hover,
-.accordion a:hover::after {
+
+.accordion a:hover, .accordion a:hover::after {
   cursor: pointer;
   color: #FF5353;
   font-size: 16pt;
 }
+
 .accordion a:hover::after {
   border: 1px solid #FF5353;
   font-size: 120pt;
 }
+
 .accordion a.active {
   color: #FF5353;
   border-bottom: 1px solid #FF5353;
 }
+
 .accordion a::after {
   position: absolute;
   float: right;
@@ -184,16 +202,18 @@ h3 {
   border: 1px solid #7288A2;
   text-align: center;
 }
-  a:hover,
-  a:hover::after {
-    cursor: pointer;
-    color: blue;
-    font-size: 16pt;
-  }
+
+a:hover, a:hover::after {
+  cursor: pointer;
+  color: blue;
+  font-size: 16pt;
+}
+
 .accordion a.active::after {
   color: #FF5353;
   border: 1px solid #FF5353;
 }
+
 .accordion .content {
   opacity: 0;
   padding: 0 1rem;
@@ -205,10 +225,12 @@ h3 {
   -o-transition: all 0.2s ease 0.15s;
   transition: all 0.2s ease 0.15s;
 }
+
 .accordion .content p {
   font-size: 1rem;
   font-weight: 300;
 }
+
 .accordion .content.active {
   opacity: 1;
   padding: 1rem;

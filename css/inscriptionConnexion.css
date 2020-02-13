@@ -1,83 +1,89 @@
 header {
     height: 150px;
-  }
-  
-  a:visited {
-      color: #5F94C2;
-  }
-  a:hover {
-      color: grey;
-  }
-  a:active {
-      color: #5F94C2;
-  }
-  
-  
-  #logo {
+}
+
+a:visited {
+    color: #5F94C2;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: #5F94C2;
+}
+
+#logo {
     background-image: url("../img/logoBlanc.png");
-    background-repeat : no-repeat;
-    background-size : contain; /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Faire en sorte que l'image prenne la totalité de son contenneur. */
     background-color: #504e4e;
     width: 15%;
     height: 100%;
     float: left;
-  }
-  
-  #container {
-    width : 85%;
+}
+
+#container {
+    width: 85%;
     height: 100%;
     background-color: #504e4e;
-    float : right;
-    position : relative;
-  }
-  
-  #bottomdiv {
-    width : 100%;
+    float: right;
+    position: relative;
+}
+
+#bottomdiv {
+    width: 100%;
     position: absolute;
     bottom: 5px;
     font-size: 2em;
-  }
-  
-  .h_txtg { /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
-    float : left;
+}
+
+.h_txtg {
+    /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+    float: left;
     margin-bottom: 5px;
-  }
-  
-  .h_txtg a { /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
-    padding : 10px;
+}
+
+.h_txtg a {
+    /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+    padding: 10px;
     text-decoration: none;
-  
-  }
-  
-  .h_txtd { /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
-    float : right;
-  }
-  
-  .h_txtd a { /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+}
+
+.h_txtd {
+    /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+    float: right;
+}
+
+.h_txtd a {
+    /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
     text-decoration: none;
-  }
-  
-  footer {
-    width : 100%;
+}
+
+footer {
+    width: 100%;
     height: 150px;
     background-color: #504e4e;
-    position : relative;
+    position: relative;
     font-size: 1em;
-  }
-  
-  .social {
+}
+
+.social {
     width: 15%;
     height: 100%;
     float: left;
-    margin-left : 10%;
+    margin-left: 10%;
     padding-top: 40px;
-  }
-  
-  .social a {
+}
+
+.social a {
     padding: 5px;
-  }
-  
-  .mentions { /* TOUT LES LIENS DU FOOTER */
+}
+
+.mentions {
+    /* TOUT LES LIENS DU FOOTER */
     display: grid;
     width: 40%;
     float: right;
@@ -85,31 +91,37 @@ header {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1px;
     grid-auto-rows: minmax(30px, auto);
-  }
-  
-  .mentions a {
+}
+
+.mentions a {
     text-decoration: none;
-  }
-  
-  /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
-  .one {
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.one {
     grid-column: 1;
     grid-row: 1;
-  }
-  .two {
+}
+
+.two {
     grid-column: 2;
     grid-row: 1;
-  }
-  .three {
+}
+
+.three {
     grid-column: 3;
     grid-row: 1;
-  }
-  /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
 
 /* ENCADREMENT DE LA PARTIE CONNEXION */
+
 /**** PAR BERENGERE ****/
 
-.connexion { /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "CONNEXION" ***/
+.connexion {
+    /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "CONNEXION" ***/
     width: 30em;
     background-color: lightgray;
     border-radius: 20px;
@@ -124,12 +136,12 @@ header {
     margin-left: 30px;
 }
 
-.reseau { /*** DIV DES ICONES POUR LA CONNEXION PAR RESEAUX SOCIAUX ***/
+.reseau {
+    /*** DIV DES ICONES POUR LA CONNEXION PAR RESEAUX SOCIAUX ***/
     width: 150px;
     float: right;
     margin-right: 30px;
 }
-
 
 .reseau .facebook {
     width: 30px;
@@ -142,7 +154,8 @@ header {
     height: 30px;
 }
 
-.connexion .form { /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+.connexion .form {
+    /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
     height: 287px;
     padding-top: 90px;
 }
@@ -169,7 +182,6 @@ input.mdp {
 .tick {
     vertical-align: middle;
     margin-left: 15px;
-
 }
 
 .connexion .bouton {
@@ -194,16 +206,17 @@ input.mdp {
 }
 
 /* ENCADREMENT DE LA PARTIE "INSCRIPTION" */
+
 /**** PAR BERENGERE ****/
 
-.inscription { /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "INSCRIPTION" ***/
+.inscription {
+    /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "INSCRIPTION" ***/
     width: 40em;
     background-color: lightgray;
     border-radius: 20px;
     height: 100%;
     min-width: 415px;
     margin-left: 5%;
-
 }
 
 .inscription h2 {
@@ -211,7 +224,6 @@ input.mdp {
     width: 150px;
     padding-top: 25px;
     margin-left: 30px;
-
 }
 
 .inscription .reseau_2 {
@@ -232,7 +244,8 @@ input.mdp {
     float: right;
 }
 
-.inscription .form { /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+.inscription .form {
+    /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
     width: 100%;
     min-width: 415px;
     margin-top: 5%;
@@ -261,7 +274,6 @@ input.pseudo {
 }
 
 input.verif {
-
     width: 86%;
     height: 20px;
     border: none;
@@ -275,7 +287,8 @@ input.verif {
     margin-left: 5px;
 }
 
-.input_container { /*** DIV POUR LES "INPUT" AFIN D'INCLURE LES ELEMENTS "CLOSE" DANS LE CADRE DE SAISI ***/
+.input_container {
+    /*** DIV POUR LES "INPUT" AFIN D'INCLURE LES ELEMENTS "CLOSE" DANS LE CADRE DE SAISI ***/
     background-color: white;
     width: 60%;
     margin-bottom: 20px;
@@ -342,11 +355,12 @@ input.verif {
     box-shadow: 0px 5px 4px 0px darkgray;
 }
 
-
-#sign_in_register { /**** GRILLE D'ALIGNEMENT EN COLONNE DES FORMULAIRES ****/
+#sign_in_register {
+    /**** GRILLE D'ALIGNEMENT EN COLONNE DES FORMULAIRES ****/
     margin-top: 2.5em;
     margin-left: 20em;
     margin-bottom: 5em;
     display: flex;
 }
+
 /*********** FIN ***********/
