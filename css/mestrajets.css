@@ -1,0 +1,362 @@
+header {
+  height: 150px;
+}
+
+a:visited {
+  color: #5F94C2;
+}
+
+a:hover {
+  color: grey;
+}
+
+a:active {
+  color: #5F94C2;
+}
+
+#logo {
+  background-image: url("../img/logoBlanc.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+  background-color: #504e4e;
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+#container {
+  width: 85%;
+  height: 100%;
+  background-color: #504e4e;
+  float: right;
+  position: relative;
+}
+
+#bottomdiv {
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  font-size: 2em;
+}
+
+.h_txtg {
+  /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+  float: left;
+  margin-bottom: 5px;
+}
+
+.h_txtg a {
+  /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+  padding: 10px;
+  text-decoration: none;
+}
+
+.h_txtd {
+  /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+  float: right;
+}
+
+.h_txtd a {
+  /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #504e4e;
+  position: relative;
+  font-size: 1em;
+}
+
+.social {
+  width: 15%;
+  height: 100%;
+  float: left;
+  margin-left: 10%;
+  padding-top: 40px;
+}
+
+.social a {
+  padding: 5px;
+}
+
+.mentions {
+  /* TOUT LES LIENS DU FOOTER */
+  display: grid;
+  width: 40%;
+  float: right;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: minmax(30px, auto);
+}
+
+.mentions a {
+  text-decoration: none;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+/**** Début CSS liste annonces ****/
+
+/****      Par Bérengère       ****/
+
+.annonce {
+  /**** DIV DE L'ENSEMBLE DES ELEMENTS DE L'ANNONCE ****/
+  width: 100%;
+  padding: 30px;
+}
+
+p {
+  margin: 0;
+}
+
+.description {
+  /**** ELEMENT CENTRAL AVEC LE DESCRIPTIF ****/
+  border-radius: 400px;
+  width: 250px;
+  padding: 10px;
+  height: 250px;
+  margin-left: 25px;
+  background: grey;
+  color: white;
+}
+
+.description .user {
+  position: relative;
+  top: 25px;
+  left: 35px;
+}
+
+.avis {
+  /**** DIV D'ALIGNEMENT DES CASQUE POUR LES AVIS ****/
+  position: relative;
+  top: 14px;
+  left: 150px;
+}
+
+.avis .casque {
+  display: inline-block;
+  margin: 0;
+}
+
+.description img {
+  width: 20px;
+}
+
+.description .depart {
+  position: relative;
+  top: 45px;
+  left: 35px;
+}
+
+.description .arrivee {
+  position: relative;
+  top: 60px;
+  left: 130px;
+}
+
+.description .jour {
+  position: relative;
+  top: 140px;
+  left: 55px;
+}
+
+.description .horaire {
+  position: relative;
+  top: 140px;
+  left: 55px;
+}
+
+.description .tarif {
+  position: relative;
+  top: 122px;
+  left: 170px;
+}
+
+#crayon {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 115px;
+}
+
+.photo {
+  /**** POUR LA PHOTO DE PROFIL ****/
+  border-radius: 200px;
+  width: 150px;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 200px;
+}
+
+.equipement {
+  /**** DIV ENGLOBANTE POUR L'EQUIPEMENT DISPONIBLE ****/
+  border-radius: 100px;
+  width: 85px;
+  height: 85px;
+  padding: 30px;
+  background: lightgray;
+  bottom: 45px;
+  position: relative;
+  left: -20px;
+  z-index: -1;
+}
+
+.equip_tick {
+  display: block;
+  float: left;
+  margin: 5px;
+}
+
+.equip_type {
+  display: block;
+  float: right;
+}
+
+.tick {
+  display: block;
+  flex-direction: row;
+  margin: 2px;
+  border: 1px solid;
+  padding: 2px;
+  background: white;
+}
+
+.casque {
+  display: block;
+  flex-direction: row;
+  width: 25px;
+  margin: 5px;
+}
+
+.gants {
+  display: block;
+  flex-direction: row;
+  width: 25px;
+  margin: 5px;
+}
+
+.wrapper_mestrajets {
+  /**** GRILLE D'ALIGNEMENT EN COLONNE DES ANNONCES ****/
+  margin-left: 30em;
+  display: grid;
+  grid-template-columns: repeat(1, 25em);
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+}
+
+.wrapper_mestrajets h2 {
+  margin-left: 80px;
+}
+
+#trajetencours {
+  margin-left: 100px;
+}
+
+.bouttons {
+  text-align: center;
+  grid-row: auto;
+}
+
+#fav {
+  position: absolute;
+  margin-left: 260px;
+  bottom: 120px;
+  color: gray;
+}
+
+#mail {
+  position: relative;
+  margin-left: 350px;
+  margin-bottom: 10%;
+  ;
+  width: 36px;
+  height: auto;
+  display: inline-block;
+}
+
+#notif {
+  position: relative;
+  margin-left: 350px;
+  width: 36px;
+  height: auto;
+  display: block;
+}
+
+.boxdescription {
+  height: 250px;
+  width: 500px;
+  float: right;
+  position: relative;
+  background: lightgray;
+  margin-left: 380px;
+  bottom: 305px;
+}
+
+.containerdesc {
+  height: 105px;
+  width: 450px;
+  float: right;
+  background: white;
+  margin-right: 22px;
+  margin-top: 20px;
+  ;
+  border: 0.1em solid;
+}
+
+.boxdescription p {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#pic1 {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 9px;
+  height: 90px;
+}
+
+#pic2 {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 9px;
+  height: 90px;
+}
+
+.containerdesc .user {
+  left: 80px;
+  bottom: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.containerdesc p {
+  left: 80px;
+  bottom: 15px;
+  font-size: 0.9em;
+}
+
+/**** Fin CSS liste annonces ****/
+
+/****   Par Bérengère / Jérémy       ****/

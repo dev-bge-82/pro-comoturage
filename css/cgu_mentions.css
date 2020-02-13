@@ -1,0 +1,76 @@
+#section {
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+h1 {
+    background-color: #504E4E;
+    text-align: center;
+    font-size: 40px;
+    color: #5F94C2;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#onglets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2, h3 {
+    color: #5F94C2;
+}
+
+a {
+    text-decoration: none;
+    color: #5F94C2;
+}
+
+a:active, a:hover, a:focus {
+    color: #504E4E;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.cookies {
+    width: 313px;
+    height: 85px;
+}
+
+strong {
+    font-weight: bold;
+    color: #5F94C2;
+}
+
+table #tab1 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 2px solid grey;
+    width: 50%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+th {
+    background-color: #504E4E;
+    color: #5f94C2;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#haut {
+    text-align: center;
+}

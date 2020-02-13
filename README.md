@@ -4,6 +4,10 @@ Projet Comoturage
 -- v0.0.13 --
 + Ajouts du css pour les boutons dans les pages index.css et contact.css
 + Formatage du code de tout les fichiers .css du projet
++ mestrajets.html (Statique : Fait | CSS : Fait |  )
++ cgu_mentions.html (Statique : Fait | CSS : Fait |  )
++ cookies.html (Statique : Fait | CSS : Fait |  )
++ poli_confi.html (Statique : Fait | CSS : Fait |  )
 
 -- v0.0.12 --
 + contact.html (Statique : Fait | CSS : Fait |  )
