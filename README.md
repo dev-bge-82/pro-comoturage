@@ -5,6 +5,9 @@ Projet Comoturage
 -- v0.0.14 --
 + faq.html (Statique : Fait | CSS : Fait |  )
 + appmobile.html (Statique : Fait | CSS : Fait |  )
++ correction de quelque problème de css 
++ Ajouts du fond d'écran sur l'index
++ Ajouts de l'ancre de toutes les pages html actuel sur le logo pour retourner dans l'index.html (accueil)
 
 -- v0.0.13 --
 + Ajouts du css pour les boutons dans les pages index.css et contact.css
