@@ -3,8 +3,9 @@
 Projet Comoturage
 
 -- v0.0.14 --
++ commentmarche.html (Statique : Fait | CSS : Fait |  )
 + faq.html (Statique : Fait | CSS : Fait |  )
-+ appmobile.html (Statique : Fait | CSS : Fait |  )
++ appmobile.html (Statique : Fait | CSS : Pas pour le moment |  )
 + correction de quelque problème de css 
 + Ajouts du fond d'écran sur l'index
 + Ajouts de l'ancre de toutes les pages html actuel sur le logo pour retourner dans l'index.html (accueil)
