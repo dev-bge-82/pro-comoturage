@@ -183,26 +183,28 @@ input.mdp {
     vertical-align: middle;
     margin-left: 15px;
 }
-
 .connexion .bouton {
-    width: 100px;
-    height: 25px;
-    border-radius: 8px;
-    background: black;
-    color: white;
-    margin-top: 12em;
-    margin-left: 14em;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    border: solid 0px;
-    -webkit-box-shadow: 0px 5px 4px 0px grey;
-    box-shadow: 0px 5px 4px 0px grey;
+    text-decoration: none;
+    padding: 5px;
+    font-family: arial;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    background-color: #033d4a;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    box-shadow: 4px 3px 5px #000000;
+    -webkit-box-shadow: 4px 3px 5px #000000;
+    -moz-box-shadow: 4px 3px 5px #000000;
 }
 
 .connexion .bouton:hover {
-    background-color: grey;
-    -webkit-box-shadow: 0px 5px 4px 0px darkgray;
-    box-shadow: 0px 5px 4px 0px darkgray;
+    padding: 5px;
+    background-color: #044c5c;
+    border: 2px solid #000000;
+    box-shadow: -5px 5px 4px #7f7f7f;
+    -webkit-box-shadow: -5px 5px 4px #7f7f7f;
+    -moz-box-shadow: -5px 5px 4px #7f7f7f;
 }
 
 /* ENCADREMENT DE LA PARTIE "INSCRIPTION" */
@@ -333,26 +335,27 @@ input.verif {
 }
 
 .inscription .bouton {
-    width: 100px;
-    height: 25px;
-    border-radius: 8px;
-    background: black;
-    color: white;
-    float: right;
-    margin-bottom: 15px;
-    margin-right: 1.2em;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    border: solid 0px;
-    -webkit-box-shadow: 0px 5px 4px 0px grey;
-    box-shadow: 0px 5px 4px 0px grey;
-    margin-inline: auto;
+    text-decoration: none;
+    padding: 5px;
+    font-family: arial;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    background-color: #033d4a;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    box-shadow: 4px 3px 5px #000000;
+    -webkit-box-shadow: 4px 3px 5px #000000;
+    -moz-box-shadow: 4px 3px 5px #000000;
 }
 
 .inscription .bouton:hover {
-    background-color: grey;
-    -webkit-box-shadow: 0px 5px 4px 0px darkgray;
-    box-shadow: 0px 5px 4px 0px darkgray;
+    padding: 5px;
+    background-color: #044c5c;
+    border: 2px solid #000000;
+    box-shadow: -5px 5px 4px #7f7f7f;
+    -webkit-box-shadow: -5px 5px 4px #7f7f7f;
+    -moz-box-shadow: -5px 5px 4px #7f7f7f;
 }
 
 #sign_in_register {

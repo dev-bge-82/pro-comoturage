@@ -1,6 +1,11 @@
 # comoturage
 
 Projet Comoturage
+
+-- v0.0.14 --
++ faq.html (Statique : Fait | CSS : Fait |  )
++ appmobile.html (Statique : Fait | CSS : Fait |  )
+
 -- v0.0.13 --
 + Ajouts du css pour les boutons dans les pages index.css et contact.css
 + Formatage du code de tout les fichiers .css du projet
