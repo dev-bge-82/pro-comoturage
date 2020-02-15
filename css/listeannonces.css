@@ -1,7 +1,4 @@
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
 
 html {
   height: 100%;
@@ -134,11 +131,16 @@ footer {
 /**** Début CSS liste annonces ****/
 
 /****      Par Bérengère       ****/
+#s1 h1 {
+  text-align: center;
+  font-size: xx-large;
+  color: #5f94c2;
+}
 
 .annonce {
   /**** DIV DE L'ENSEMBLE DES ELEMENTS DE L'ANNONCE ****/
   width: 100%;
-  padding: 30px;
+  padding: 15px;
 }
 
 p {
@@ -152,8 +154,8 @@ p {
   padding: 10px;
   height: 250px;
   margin-left: 25px;
-  background: grey;
-  color: white;
+  background: #bddaff;
+  color: black;
 }
 
 .description .user {
@@ -181,33 +183,33 @@ p {
 .description .depart {
   position: relative;
   top: 45px;
-  left: 10px;
+  left: -5px;
   width: 500px;
 }
 
 .description .arrivee {
   position: relative;
   top: 60px;
-  left: 50px;
+  left: 35px;
   width: 500px;
 }
 
 .description .jour {
   position: relative;
   top: 85px;
-  left: 110px;
+  left: 80px;
 }
 
 .description .horaire {
   position: relative;
   top: 68px;
-  left: 180px;
+  left: 157px;
 }
 
 .description .tarif {
   position: relative;
   top: 90px;
-  left: 110px;
+  left: 81px;
 }
 
 .photo {
@@ -226,10 +228,10 @@ p {
   width: 85px;
   height: 85px;
   padding: 30px;
-  background: lightgray;
-  bottom: 45px;
+  background: #F2ECD8;
+  bottom: 56px;
   position: relative;
-  left: -20px;
+  left: -1px;
   z-index: -1;
 }
 
@@ -237,14 +239,18 @@ p {
   display: block;
   float: left;
   margin: 5px;
+  margin-left: -20px;
+  margin-top: -61px;
 }
 
 .equip_type {
   display: block;
   float: right;
+  margin-right: -19px;
+  margin-top: -17px;
 }
 
-.tick {
+.equip_tick .tick {
   display: block;
   flex-direction: row;
   margin: 2px;
