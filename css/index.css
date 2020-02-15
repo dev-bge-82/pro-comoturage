@@ -1,4 +1,7 @@
-* {-moz-box-sizing: border-box; box-sizing: border-box;}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html {
   height: 100%;
@@ -9,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   height: 150px;
 }
@@ -30,7 +34,7 @@ a:active {
   background-repeat: no-repeat;
   background-size: contain;
   /* Faire en sorte que l'image prenne la totalité de son contenneur. */
-  background-color: #504e4e;
+  background-color: #504E4E;
   width: 15%;
   height: 100%;
   float: left;
@@ -39,7 +43,7 @@ a:active {
 #container {
   width: 85%;
   height: 100%;
-  background-color: #504e4e;
+  background-color: #504E4E;
   float: right;
   position: relative;
 }
@@ -87,18 +91,23 @@ a:active {
   font-size: 1.5em;
   align-items: center;
   color: white;
-  font-weight:bold;
+  font-weight: bold;
   text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
-
 }
 
-body {position: relative;}
-footer {position: absolute; bottom: 0;}
+body {
+  position: relative;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
 
 footer {
   width: 100%;
   height: 150px;
-  background-color: #504e4e;
+  background-color: #504E4E;
   font-size: 1em;
 }
 
@@ -149,7 +158,7 @@ footer {
 /* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
 
 form {
-  
+  margin-right: 20px;
   border-radius: 0;
   -webkit-appearance: none;
 }
@@ -158,9 +167,16 @@ form {
   display: none;
 }
 
+#formulaire {
+  margin: 1% 2%;
+}
+
 .msearch {
-  margin-right: 3% 5%;
-  height: 28%;
+  width: 30%;
+  margin: 2% 60%;
+  background-color: #fcb275;
+  height: 25%;
+  border-width: 1px solid;
 }
 
 .harivée {
@@ -171,13 +187,36 @@ form {
   margin: 0px 3px;
 }
 
-.send {
-  text-align: center;
-  width: 10%;
+#rech_prop {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 2% 2%;
 }
 
-button.send {
-  margin-left: 45%;
+#btn_proposer {
+  margin: 0px 20px;
+}
+
+.hdd {
+  margin: 0px 3px;
+}
+
+#sendR {
+  margin: 30px 3px;
+  text-align: center;
+  width: 98%;
+  background-color: #262A2D;
+  color: white;
+  padding: 10px 10px;
+}
+
+#sendP {
+  margin: 30px 3px;
+  text-align: center;
+  width: 98%;
+  background-color: #262A2D;
+  color: white;
+  padding: 5px 10px;
 }
 
 button {
@@ -186,7 +225,7 @@ button {
   font-family: arial;
   font-size: 0.9em;
   color: #FFFFFF;
-  background-color: #033d4a;
+  background-color: #033D4A;
   border-radius: 13px;
   -webkit-border-radius: 13px;
   -moz-border-radius: 13px;
@@ -197,14 +236,15 @@ button {
 
 button:hover {
   padding: 5px;
-  background-color: #044c5c;
+  background-color: #044C5C;
   border: 2px solid #000000;
-  box-shadow: -5px 5px 4px #7f7f7f;
-  -webkit-box-shadow: -5px 5px 4px #7f7f7f;
-  -moz-box-shadow: -5px 5px 4px #7f7f7f;
+  box-shadow: -5px 5px 4px #7F7F7F;
+  -webkit-box-shadow: -5px 5px 4px #7F7F7F;
+  -moz-box-shadow: -5px 5px 4px #7F7F7F;
 }
+
 body {
-  background-image:url(../img/accueilfinal.jpg);
+  background-image: url(../img/accueilfinal.jpg);
   background-size: cover;
   background-position: 0% -40%;
 }

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,139 +8,140 @@
     <title>Détail Annonce</title>
 
     <!-- Feuille de Style en cascade -->
-	<link rel="stylesheet" href="../css/detailsannonces.css">
+    <link rel="stylesheet" href="../css/detailsannonces.css">
 
 </head>
-    <!--Début du Body-->
-	<body>
-		<!--Début du Header-->
-		<header>
-			<!--Logo-->
-			<a id="logo" href="index.html"></a>
-			<!--Container Bannière et Menu-->
-			<div id="container" class="banniere">
-				
-				<div id="bottomdiv">
-					
-					<!--ça correspond à ( rechercher et proposer ) -->
-					<div class="h_txtg">
-						<a id="recherche_index" href="">Recherche</a>
-						<a id="proposer_index" href="">Proposer</a>
-					</div>
+<!--Début du Body-->
 
-					<!--ça correspond à ( incription et connexion ) -->
-					<div class="h_txtd">
-						<a id="inscription_index" href="../html/compte/inscriptionConnexion.html">Inscription</a>
-						<a id="connexion_index" href="../html/compte/inscriptionConnexion.html">Connexion</a>
-					</div>
+<body>
+    <!--Début du Header-->
+    <header>
+        <!--Logo-->
+        <a id="logo" href="index.html"></a>
+        <!--Container Bannière et Menu-->
+        <div id="container" class="banniere">
 
-				</div>
+            <div id="bottomdiv">
 
-			</div>
+                <!--ça correspond à ( rechercher et proposer ) -->
+                <div class="h_txtg">
+                    <a id="recherche_index" href="">Recherche</a>
+                    <a id="proposer_index" href="">Proposer</a>
+                </div>
 
-		</header>
-		<!--Fin du Header-->
+                <!--ça correspond à ( incription et connexion ) -->
+                <div class="h_txtd">
+                    <a id="inscription_index" href="../html/compte/inscriptionConnexion.html">Inscription</a>
+                    <a id="connexion_index" href="../html/compte/inscriptionConnexion.html">Connexion</a>
+                </div>
 
-		<!--Début detail de l'annonce version static-->
-        <section id="s1">
-            <!-- Photo de l'utilisateur , nom et évalutation  -->
-           <div class="profil">
-               <img src="../img/Profil_wireframe.png" alt="profil">
-               <p>Nom de l'utilisateur</p>
-               <div class="evalution">
-                   <img src="../img/casque_blanc.png" alt="casque">
-                   <img src="../img/casque_blanc.png" alt="casque">
-                   <img src="../img/casque_blanc.png" alt="casque">
-                   <img src="../img/casque_blanc.png" alt="casque">
-                   <img src="../img/casque_blanc.png" alt="casque">
-               </div>
-           </div>
+            </div>
 
-            <!-- Champs de données  -->
-           <div class="donnees">
-               <div class="depart">
-                    <p>Ville de départ</p>  
-               </div>
-               <div class="arriver">
-                    <p>Ville d'arrivée</p>
-               </div>
-               <div class="date">
-                    <p>Date</p>
-               </div>
-               <div class="heure">
-                    <p>Heure</p> 
-               </div>
-               <div class="prix">
-                    <p>Prix</p>  
-               </div>
-           </div>
+        </div>
 
-            <!-- Photo miniature et véhicules  -->
-           <div class="vehicule ">
-               <div class ="miniature">
-                   <img src="../img/motocyclette.png" alt="miniature">
-                   <img src="../img/motocyclette.png" alt="miniature">
-                   <img src="../img/motocyclette.png" alt="miniature">
-               </div>
-               <img src="../img/motocyclette.png" alt="vehicule">
-           </div>
+    </header>
+    <!--Fin du Header-->
 
-            <!-- Description + Equipement + Button   -->
-           <div>
-               <div class ="equipement">
-                    <img src="../img/tick@2x.png" alt="">
-                    <img src="../img/casque_blanc.png" alt="">
-                    <img src="../img/gants.png" alt="">
-                    <img src="../img/tick@2x.png" alt="">
-                    
-               </div>
+    <!--Début detail de l'annonce version static-->
+    <section id="s1">
+        <!-- Photo de l'utilisateur , nom et évalutation  -->
+        <div class="profil">
+            <img src="../img/Profil_wireframe.png" alt="profil">
+            <p>Nom de l'utilisateur</p>
+            <div class="evalution">
+                <img src="../img/casque_blanc.png" alt="casque">
+                <img src="../img/casque_blanc.png" alt="casque">
+                <img src="../img/casque_blanc.png" alt="casque">
+                <img src="../img/casque_blanc.png" alt="casque">
+                <img src="../img/casque_blanc.png" alt="casque">
+            </div>
+        </div>
 
-               <div>
-                   <h2>Description</h2>
-                   <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                   </br> Distinctio iste rem, illum culpa labore alias voluptate, 
-                   </br>delectus officia tempore exercitationem et esse laboriosam eligendi quam inventore?
-                   </br> Explicabo aliquid iste suscipit!</p> 
-               </div>
-               
-               <div class="buttondroite">
-                   <button>Réserver</button>       
-               </div>
-               <div class="buttongauche">
-                    <button>Contacter</button>
-               </div>
+        <!-- Champs de données  -->
+        <div class="donnees">
+            <div class="depart">
+                <p>Ville de départ</p>
+            </div>
+            <div class="arriver">
+                <p>Ville d'arrivée</p>
+            </div>
+            <div class="date">
+                <p>Date</p>
+            </div>
+            <div class="heure">
+                <p>Heure</p>
+            </div>
+            <div class="prix">
+                <p>Prix</p>
+            </div>
+        </div>
 
-           </div>
-           <!-- Fin detail de l'annonce version static -->
-       </section>
-		
-		<!--Début du Footer-->
-		<footer>
-	
-			<!--Réseaux Sociaux-->
-			<div class="social">
-				<a href=""><img src="../img/facebook.png"></a>
-				<a href=""><img src="../img/google.png"></a>
-				<a href=""><img src="../img/instagram.png"></a>
-				<a href=""><img src="../img/twitter.png"></a>
-			</div>
-	
-			<!--Mentions Légales et compagnie -->
-			<div class="mentions">
-				<a href="public/commentmarche.html" class="one">Comment ça marche ?</a>
-				<a href="public/bonneconduite.html" class="two">Code de bonne conduite</a>
-				<a href="public/contact.html" class="three">Contact</a>
-				<a href="public/cgu_mentions.html">CGU et mentions légales</a>
-				<a href="public/securite.html">Sécurité</a>
-				<a href="public/appmobile.html">Application mobile</a>
-				<a href="public/partenaire.html">Nos partenaires</a>
-				<a href="public/faq.html">FAQ</a>
-				<a href="../html/index.html#presse">Presse</a>
-			</div>
-	
-		</footer>
-		<!--Fin du Footer-->
-	</body>
-	<!--Fin du Body-->
+        <!-- Photo miniature et véhicules  -->
+        <div class="vehicule ">
+            <div class="miniature">
+                <img src="../img/motocyclette.png" alt="miniature">
+                <img src="../img/motocyclette.png" alt="miniature">
+                <img src="../img/motocyclette.png" alt="miniature">
+            </div>
+            <img src="../img/motocyclette.png" alt="vehicule">
+        </div>
+
+        <!-- Description + Equipement + Button   -->
+        <div>
+            <div class="equipement">
+                <img src="../img/tick@2x.png" alt="">
+                <img src="../img/casque_blanc.png" alt="">
+                <img src="../img/gants.png" alt="">
+                <img src="../img/tick@2x.png" alt="">
+
+            </div>
+
+            <div>
+                <h2>Description</h2>
+                <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </br> Distinctio iste rem, illum culpa labore alias voluptate,
+                    </br>delectus officia tempore exercitationem et esse laboriosam eligendi quam inventore?
+                    </br> Explicabo aliquid iste suscipit!</p>
+            </div>
+
+            <div class="buttondroite">
+                <button>Réserver</button>
+            </div>
+            <div class="buttongauche">
+                <button>Contacter</button>
+            </div>
+
+        </div>
+        <!-- Fin detail de l'annonce version static -->
+    </section>
+
+    <!--Début du Footer-->
+    <footer>
+
+        <!--Réseaux Sociaux-->
+        <div class="social">
+            <a href=""><img src="../img/facebook.png"></a>
+            <a href=""><img src="../img/google.png"></a>
+            <a href=""><img src="../img/instagram.png"></a>
+            <a href=""><img src="../img/twitter.png"></a>
+        </div>
+
+        <!--Mentions Légales et compagnie -->
+        <div class="mentions">
+            <a href="public/commentmarche.html" class="one">Comment ça marche ?</a>
+            <a href="public/bonneconduite.html" class="two">Code de bonne conduite</a>
+            <a href="public/contact.html" class="three">Contact</a>
+            <a href="public/cgu_mentions.html">CGU et mentions légales</a>
+            <a href="public/securite.html">Sécurité</a>
+            <a href="public/appmobile.html">Application mobile</a>
+            <a href="public/partenaire.html">Nos partenaires</a>
+            <a href="public/faq.html">FAQ</a>
+            <a href="../html/index.html#presse">Presse</a>
+        </div>
+
+    </footer>
+    <!--Fin du Footer-->
+</body>
+<!--Fin du Body-->
+
 </html>
-

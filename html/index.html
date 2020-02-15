@@ -1,72 +1,66 @@
 <html lang="fr" dir="ltr">
-<head>
 
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Comoturage</title>
-
 	<!-- Feuille de Style en cascade -->
 	<link rel="stylesheet" href="../css/index.css">
 	<!-- Javascript -->
 	<script type="text/javascript" src="../scripts/jquery-3.4.1.js"></script>
 	<script type="text/javascript" src="../scripts/index.js"></script>
-
 </head>
-	<!--Début du Body-->
-	<body>
-		<!--Début du Header-->
-		<header>
-			<!--Logo-->
-			<a id="logo" href="index.html"></a>
-			<!--Container Bannière et Menu-->
-			<div id="container" class="banniere">
-				
-				<div id="bottomdiv">
-					
-					<!--ça correspond à ( rechercher et proposer ) -->
-					<div class="h_txtg">
-						<a id="recherche_index" href="">Recherche</a>
-						<a id="proposer_index" href="">Proposer</a>
-					</div>
+<!--Début du Body-->
 
-					<!--ça correspond à ( incription et connexion ) -->
-					<div class="h_txtd">
-						<a id="inscription_index" href="../html/compte/inscriptionConnexion.html">Inscription</a>
-						<a id="connexion_index" href="../html/compte/inscriptionConnexion.html">Connexion</a>
-					</div>
-
+<body>
+	<!--Début du Header-->
+	<header>
+		<!--Logo-->
+		<a id="logo" href="index.html"></a>
+		<!--Container Bannière et Menu-->
+		<div id="container" class="banniere">
+			<div id="bottomdiv">
+				<!--ça correspond à ( rechercher et proposer ) -->
+				<div class="h_txtg">
+					<a id="recherche_index" href="">Recherche</a>
+					<a id="proposer_index" href="">Proposer</a>
 				</div>
-
+				<!--ça correspond à ( incription et connexion ) -->
+				<div class="h_txtd">
+					<a id="inscription_index" href="../html/compte/inscriptionConnexion.html">Inscription</a>
+					<a id="connexion_index" href="../html/compte/inscriptionConnexion.html">Connexion</a>
+				</div>
 			</div>
-
-		</header>
-		<!--Fin du Header-->
-
-		<!-- SECTION 1 (Rechercher / Proposer) -->
-		<section id="s1">
-			<div class="msearch">
+		</div>
+	</header>
+	<!--Fin du Header-->
+	<!-- SECTION 1 (Rechercher / Proposer) -->
+	<section id="s1">
+		<div class="msearch">
+			<div id="rech_prop">
 				<a id="btn_rechercher" onclick="cacherP()">Rechercher</a>
-				<a id="btn_proposer" onclick="cacherR()">Proposer</a> <br>
-
-				<!-- Formulaire de Recherche-->
+				<a id="btn_proposer" onclick="cacherR()">Proposer</a>
+			</div>
+			<br>
+			<!-- Formulaire de Recherche-->
+			<div id="formulaire">
 				<form id="formR" action="rechercher.html" methode="post">
-					<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
-					<label>Date de départ</label>
+					<input value="" placeholder="lieu de départ" type="text" name="lieu de départ">
+					<label>Date de départ &nbsp</label>
 					<input type="date" name="dd"></label>
-					<label class="hdd" >Heure de départ</label>
-					<input type="time" name="td"> <br><br>
+					<label class="hdd">Heure de départ &nbsp</label>
+					<input type="time" name="td"> <br><br><br>
 					<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
-					<label class="darrivee"  for="date d'arrivée">Date d'arrivée</label>
-					<input 	class="hdate" type="date" name="da">
-					<label class="harivée" for="heure d'arrivée">Heure d'arrivée</label>
+					<label class="darrivee" for="date d'arrivée">Date d'arrivée &nbsp </label>
+					<input class="hdate" type="date" name="da">
+					<label class="harivée" for="heure d'arrivée">Heure d'arrivée &nbsp</label>
 					<input type="time" name="ta"></br><br>
-					<button  class="send" name="send" type="submit">Valider</button>
-				</form>	
-					
+					<button id="sendR" class="send" name="send" type="submit">Valider</button>
+				</form>
 				<!-- Formulaire de Proposition-->
 				<form id="formP" action="proposer.html" methode="post">
-					<input value="" placeholder="lieu de départ"type="text" name="lieu de départ">
+					<input value="" placeholder="lieu de départ" type="text" name="lieu de départ">
 					<label>Date de départ</label>
 					<input type="date" name="dd"></label>
 					<label>Heure de départ</label>
@@ -74,62 +68,66 @@
 					<input placeholder="Lieu d'arrivé" type="text" name="lieu d'arrivée">
 					<label class="darrivee" for="date d'arrivée">Date d'arrivée</label>
 					<input type="date" name="da">
-					<label  class="harivée" for="heure d'arrivée">Heure d'arrivée</label>
+					<label class="harivée" for="heure d'arrivée">Heure d'arrivée</label>
 					<input type="time" name="ta"></br>
 					<label for="accesoires">Accessoires fournis : </label> </br>
-					<input type="checkbox"name="casque"value="1"checked="checked"/>
+					<input type="checkbox" name="casque" value="1" checked="checked" />
 					Casque</br>
-					<input type="checkbox"name="gants"value="2"checked="checked"/>Gants</br>
-					<button class="send" name="send" type="submit">Valider</button>
-				</form>						
-			</div>			
-		</section>
-
-		<!-- SECTION 2 (Dernières annonces comme ça c'est clair)-->
-		<section id="s2">
-			
-		</section>
-
-		<!--Zone de Presse-->
-		<div class="presse">
-
-			<a href="https://www.20minutes.fr/toulouse/1849271-20160520-toulouse-invente-covoiturage-moto"> <img src="../img/20minutes.png"></a>
-			<a href="https://www.ladepeche.fr/article/2016/04/20/2329167-la-moto-est-elle-l-avenir-du-covoiturage.html"> <img src="../img/ladepeche.jpg"></a>
-			<a href="http://www.moto-net.com/article/comoturage-propose-un-nouveau-service-de-moto-taxi-et-voyage-moto-partage.html"> <img src="../img/motodunet.png"></a>
-			<p id="ppresse">Ils parlent de nous !</p>
-			<a href="https://auto.bfmtv.com/actualite/greve-du-5-decembre-et-pourquoi-pas-le-comoturage-1818470.html"> <img src="../img/bfm.png"></a>
-			<a href="https://actu.fr/occitanie/toulouse_31555/comoturage-com-le-blablacar-de-la-moto-est-a-toulouse_3660888.html"> <img src="../img/actu.png"></a>
-			<a href="https://moto-station.com/moto-revue/actu/apres-blabla-car-decouvrez-comoturage-un-site-de-covoiturage-moto/428137"> <img src="../img/motostation.jpg"></a>
-	
+					<input type="checkbox" name="gants" value="2" checked="checked" />Gants</br>
+					<button id="sendP" class="send" name="send" type="submit">Valider</button>
+				</form>
+			</div>
 		</div>
-		
-		<!--Début du Footer-->
-		<footer>
+	</section>
 	
-			<!--Réseaux Sociaux-->
-			<div class="social">
-				<a href=""><img src="../img/facebook.png"></a>
-				<a href=""><img src="../img/google.png"></a>
-				<a href=""><img src="../img/instagram.png"></a>
-				<a href=""><img src="../img/twitter.png"></a>
-			</div>
-	
-			<!--Mentions Légales et compagnie -->
-			<div class="mentions">
-				<a href="public/commentmarche.html" class="one">Comment ça marche ?</a>
-				<a href="public/bonneconduite.html" class="two">Code de bonne conduite</a>
-				<a href="public/contact.html" class="three">Contact</a>
-				<a href="public/cgu_mentions.html">CGU et mentions légales</a>
-				<a href="public/securite.html">Sécurité</a>
-				<a href="public/appmobile.html">Application mobile</a>
-				<a href="public/partenaire.html">Nos partenaires</a>
-				<a href="public/faq.html">FAQ</a>
-				<a href="../html/index.html#presse">Presse</a>
-			</div>
-	
-		</footer>
-		<!--Fin du Footer-->
-	</body>
-	<!--Fin du Body-->
-</html>
+	<!-- SECTION 2 (Dernières annonces comme ça c'est clair)-->
+	<section id="s2">
 
+	</section>
+
+	<!--Zone de Presse-->
+	<div class="presse">
+		<a href="https://www.20minutes.fr/toulouse/1849271-20160520-toulouse-invente-covoiturage-moto"> <img
+				src="../img/20minutes.png"></a>
+		<a href="https://www.ladepeche.fr/article/2016/04/20/2329167-la-moto-est-elle-l-avenir-du-covoiturage.html">
+			<img src="../img/ladepeche.jpg"></a>
+		<a
+			href="http://www.moto-net.com/article/comoturage-propose-un-nouveau-service-de-moto-taxi-et-voyage-moto-partage.html">
+			<img src="../img/motodunet.png"></a>
+		<p id="ppresse">Ils parlent de nous !</p>
+		<a href="https://auto.bfmtv.com/actualite/greve-du-5-decembre-et-pourquoi-pas-le-comoturage-1818470.html"> <img
+				src="../img/bfm.png"></a>
+		<a
+			href="https://actu.fr/occitanie/toulouse_31555/comoturage-com-le-blablacar-de-la-moto-est-a-toulouse_3660888.html">
+			<img src="../img/actu.png"></a>
+		<a
+			href="https://moto-station.com/moto-revue/actu/apres-blabla-car-decouvrez-comoturage-un-site-de-covoiturage-moto/428137">
+			<img src="../img/motostation.jpg"></a>
+	</div>
+	<!--Début du Footer-->
+	<footer>
+		<!--Réseaux Sociaux-->
+		<div class="social">
+			<a href=""><img src="../img/facebook.png"></a>
+			<a href=""><img src="../img/google.png"></a>
+			<a href=""><img src="../img/instagram.png"></a>
+			<a href=""><img src="../img/twitter.png"></a>
+		</div>
+		<!--Mentions Légales et compagnie -->
+		<div class="mentions">
+			<a href="public/commentmarche.html" class="one">Comment ça marche ?</a>
+			<a href="public/bonneconduite.html" class="two">Code de bonne conduite</a>
+			<a href="public/contact.html" class="three">Contact</a>
+			<a href="public/cgu_mentions.html">CGU et mentions légales</a>
+			<a href="public/securite.html">Sécurité</a>
+			<a href="public/appmobile.html">Application mobile</a>
+			<a href="public/partenaire.html">Nos partenaires</a>
+			<a href="public/faq.html">FAQ</a>
+			<a href="../html/index.html#presse">Presse</a>
+		</div>
+	</footer>
+	<!--Fin du Footer-->
+</body>
+<!--Fin du Body-->
+
+</html>
