@@ -2,6 +2,10 @@
 
 Projet Comoturage
 
+-- v0.0.15 --
++ Formatage de code
++ Correction de bug sur les css
+
 -- v0.0.14 --
 + commentmarche.html (Statique : Fait | CSS : Fait |  )
 + faq.html (Statique : Fait | CSS : Fait |  )
