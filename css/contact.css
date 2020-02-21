@@ -133,7 +133,8 @@ footer {
 
 form {
     /* Uniquement centrer le formulaire sur la page */
-    margin: 0 auto;
+    background-color: #BDDAFF;
+    margin: 5% auto;
     width: 400px;
     /* Encadré pour voir les limites du formulaire */
     padding: 0.6em;
@@ -162,6 +163,7 @@ input, textarea {
     box-sizing: border-box;
     /* Pour harmoniser le look & feel des bordures des champs texte */
     border: 1px solid #999;
+    background-color: #F2ECD8;
 }
 
 select, option {
@@ -173,6 +175,7 @@ select, option {
     box-sizing: border-box;
     /* Pour harmoniser le look & feel des bordures des champs texte */
     border: 1px solid #999;
+    background-color: #F2ECD8;
 }
 
 input:focus, textarea:focus {
@@ -196,6 +199,8 @@ strong {
 }
 
 button {
+    display: block;
+    margin : auto;
     text-decoration: none;
     padding: 5px;
     font-family: arial;

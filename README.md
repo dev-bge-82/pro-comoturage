@@ -2,6 +2,10 @@
 
 Projet Comoturage
 
+-- v0.1.00 --
++ Ajout d'un marging au formule de contact ( contact.css )
++ Ajout des couleurs de la charte graphisque ( contact.css )
+
 -- v0.0.15 --
 + Formatage de code
 + Correction de bug sur les css
