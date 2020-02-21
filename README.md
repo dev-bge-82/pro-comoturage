@@ -6,6 +6,7 @@ Projet Comoturage
 + Ajout d'un marging au formule de contact ( contact.css )
 + Ajout des couleurs de la charte graphisque ( contact.css )
 + Fixe des ancres non relié sur certaine page html
++ Redimensionnement des images du bandeau presse
 
 -- v0.0.15 --
 + Formatage de code
