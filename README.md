@@ -2,6 +2,10 @@
 
 Projet Comoturage
 
+-- v0.1.01 --
++ Ajout de Bootstrap 4.4.1 
++ Exercice
+
 -- v0.1.00 --
 + Ajout d'un marging au formule de contact ( contact.css )
 + Ajout des couleurs de la charte graphisque ( contact.css )

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nous contacter</title>
+
+    <!-- Feuille de Style en cascade -->
+    <link rel="stylesheet" href="../../css/contact.css">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <!--Début du Header-->
+    <header>
+		<!--Logo-->
+		<a id="logo" href="index.html"></a>
+		<!--Container Bannière et Menu-->
+		<div id="container" class="banniere">
+			<div id="bottomdiv">
+				<!--ça correspond à ( rechercher et proposer ) -->
+				<div class="h_txtg">
+					<a id="recherche_index" href="">Recherche</a>
+					<a id="proposer_index" href="">Proposer</a>
+				</div>
+				<!--ça correspond à ( incription et connexion ) -->
+				<div class="h_txtd">
+					<a id="inscription_index" href="../compte/inscriptionConnexion.html">Inscription</a>
+					<a id="connexion_index" href="../compte/inscriptionConnexion.html">Connexion</a>
+				</div>
+			</div>
+        </div>
+
+    </header>
+    <!--Fin du Header-->
+
+    <!-- SECTION 1 VOTRE CODE -->
+    <section id="s1">
+        <form action="/ma-page-de-traitement" method="post">
+            <fieldset>
+                <legend>Formulaire de contact</legend>
+                <p>Si vous avez une problème, nous avons la solution !</p>
+                <div>
+                    <label for="firstname">Nom<strong>*</strong> :</label>
+                    <input type="text" id="firstname" name="user_firstname">
+                </div>
+                <div>
+                    <label for="lastname">Prénom<strong>*</strong> :</label>
+                    <input type="text" id="lastname" name="user_lastname">
+                </div>
+                <div>
+                    <label for="phone">Téléphone<strong>*</strong> :</label>
+                    <input type="tel" id="phone" name="user_phone">
+                </div>
+                <div>
+                    <label for="mail">E-mail<strong>*</strong> :</label>
+                    <input type="email" id="mail" name="user_mail">
+                </div>
+                <div>
+                    <label for="regions">Région<strong>*</strong> :</label>
+                    <select name="regions">
+                        <option value=""></option><br />
+                        <option value="Alsace">Alsace</option><br />
+                        <option value="Aquitaine">Aquitaine</option><br />
+                        <option value="Auvergne">Auvergne</option><br />
+                        <option value="Basse-Normandie">Basse-Normandie</option><br />
+                        <option value="Bourgogne">Bourgogne</option><br />
+                        <option value="Bretagne">Bretagne</option><br />
+                        <option value="Centre">Centre</option><br />
+                        <option value="Champagne-Ardenne">Champagne-Ardenne</option><br />
+                        <option value="Collectivités et territoires d'Outre-Mer">Collectivités et territoires
+                            d'Outre-Mer</option><br />
+                        <option value="Corse">Corse</option><br />
+                        <option value="Départements d'Outre-Mer">Départements d'Outre-Mer</option><br />
+                        <option value="Franche-Comté">Franche-Comté</option><br />
+                        <option value="Haute-Normandie">Haute-Normandie</option><br />
+                        <option value="Ile-de-France">Ile-de-France</option><br />
+                        <option value="Languedoc-Roussillon">Languedoc-Roussillon</option><br />
+                        <option value="Limousin">Limousin</option><br />
+                        <option value="Lorraine">Lorraine</option><br />
+                        <option value="Midi-Pyrénées">Midi-Pyrénées</option><br />
+                        <option value="Nord-Pas-de-Calais">Nord-Pas-de-Calais</option><br />
+                        <option value="Pays de la Loire">Pays de la Loire</option><br />
+                        <option value="Picardie">Picardie</option><br />
+                        <option value="Poitou-Charentes">Poitou-Charentes</option><br />
+                        <option value="Provence-Alpes-Côte-d'Azur">Provence-Alpes-Côte-d'Azur</option><br />
+                        <option value="Rhône-Alpes">Rhône-Alpes</option><br />
+                    </select>
+                </div>
+                <div>
+                    <label for="departement">Département<strong>*</strong> :</label>
+                    <select name="departement">
+                        <option value=""></option><br />
+                        <option value="01">01-Ain</option><br />
+                        <option value="02">02-Aisne</option><br />
+                        <option value="03">03-Allier</option><br />
+                        <option value="04">04-Alpes de haute provence</option><br />
+                        <option value="05">05-Hautes alpes</option><br />
+                        <option value="06">06-Alpes maritimes</option><br />
+                        <option value="07">07-Ardèche</option><br />
+                        <option value="08">08-Ardennes</option><br />
+                        <option value="09">09-Ariège</option><br />
+                        <option value="10">10-Aube</option><br />
+                        <option value="11">11-Aude</option><br />
+                        <option value="12">12-Aveyron</option><br />
+                        <option value="13">13-Bouches du rhône</option><br />
+                        <option value="14">14-Calavados</option><br />
+                        <option value="15">15-Cantal</option><br />
+                        <option value="16">16-Charente</option><br />
+                        <option value="17">17-Charente maritimes</option><br />
+                        <option value="18">18-Cher</option><br />
+                        <option value="19">19-Corrèze</option><br />
+                        <option value="2A">2A-Corse du sud</option><br />
+                        <option value="2B">2B-Haute corse</option><br />
+                        <option value="21">21-Côte d'or</option><br />
+                        <option value="22">22-Côtes d'armor</option><br />
+                        <option value="23">23-Creuse</option><br />
+                        <option value="24">24-Dordogne</option><br />
+                        <option value="25">25-Doubs</option><br />
+                        <option value="26">26-Drôme</option><br />
+                        <option value="27">27-Eure</option><br />
+                        <option value="28">28-Eure et loire</option><br />
+                        <option value="29">29-Finistère</option><br />
+                        <option value="30">30-Gard</option><br />
+                        <option value="31">31-Haute garonne</option><br />
+                        <option value="32">32-Gers</option><br>
+                        <option value="33">33-Gironde</option><br />
+                        <option value="34">34-Hérault</option><br />
+                        <option value="35">35-Ille et vilaine</option><br />
+                        <option value="36">36-Indre</option><br />
+                        <option value="37">37-Indre et loire</option><br />
+                        <option value="38">38-Isère</option><br />
+                        <option value="39">39-Jura</option><br />
+                        <option value="40">40-Landes</option><br />
+                        <option value="41">41-Loire et cher</option><br />
+                        <option value="42">42-Loire</option><br />
+                        <option value="43">43-haute loire</option><br />
+                        <option value="44">44-Loire atlantique</option><br />
+                        <option value="45">45-Loiret</option><br />
+                        <option value="46">46-Lot</option><br />
+                        <option value="47">47-Lot et garonne</option><br />
+                        <option value="48">48-Lozère</option><br />
+                        <option value="49">49-Maine et loire</option><br />
+                        <option value="50">50-Manche</option><br />
+                        <option value="51">51-marne</option><br />
+                        <option value="52">52-Haute marne</option><br />
+                        <option value="53">53-Mayenne</option><br />
+                        <option value="54">54-meurthe et moselle</option><br />
+                        <option value="55">55-Meuse</option><br />
+                        <option value="56">56-Morbihan</option><br />
+                        <option value="57">57-Moselle</option><br />
+                        <option value="58">58-Nièvre</option><br />
+                        <option value="59">59-Nord</option><br />
+                        <option value="60">60-Oise</option><br />
+                        <option value="61">61-Orne</option><br />
+                        <option value="62">62-Pas de calais</option><br />
+                        <option value="63">63-puy de dôme</option><br />
+                        <option value="64">64-Pyrénées atlantiques</option><br />
+                        <option value="65">65-Hautes pyrénées</option><br />
+                        <option value="66">66-Pyrénées orientales</option><br />
+                        <option value="67">67-Bas rhin</option><br />
+                        <option value="68">68-Haut rhin</option><br />
+                        <option value="69">69-Rhône</option><br />
+                        <option value="70">70-Haute-saône</option><br />
+                        <option value="71">71-Saône et loire</option><br />
+                        <option value="72">72-Sarthe</option><br />
+                        <option value="73">73-Savoie</option><br />
+                        <option value="74">74-Haute savoie</option><br />
+                        <option value="75">75-Paris</option><br />
+                        <option value="76">76-Seine maritime</option><br />
+                        <option value="77">77-Seine et marne</option><br />
+                        <option value="78">78-Yvelines</option><br />
+                        <option value="79">79-Deux sèvres</option><br />
+                        <option value="80">80-Somme</option><br />
+                        <option value="81">81-tarn</option><br />
+                        <option value="82">82-Tarn et garonne</option><br />
+                        <option value="83">83-Var</option><br />
+                        <option value="84">84-Vaucluse</option><br />
+                        <option value="85">85-Vendée</option><br />
+                        <option value="86">86-Vienne</option><br />
+                        <option value="87">87-Haute vienne</option><br />
+                        <option value="88">88-Vosges</option><br />
+                        <option value="89">89-Yonne</option><br />
+                        <option value="90">90-Territoire de belfort</option><br />
+                        <option value="91">91-Essonne</option><br />
+                        <option value="92">92-Hauts de seine</option><br />
+                        <option value="93">93-Seine st denis</option><br />
+                        <option value="94">94-Val de marne</option><br />
+                        <option value="95">95-Val d'oise</option><br />
+                        <option value="971">971-Guadeloupe</option><br />
+                        <option value="972">972-Martinique</option><br />
+                        <option value="973">973-Guyane</option><br />
+                        <option value="974">974-réunion</option><br />
+                    </select>
+                </div>
+                <div>
+                    <label for="motif">Motif<strong>*</strong> :</label>
+                    <select name="motif">
+                        <option value=""></option>
+                        <option value="question">J'ai une question sur le fonctionnement du site</option>
+                        <option value="probreserv">J'ai un problème avec ma réservation</option>
+                        <option value="probpassg">J'ai un problème avec un passager</option>
+                        <option value="probcondu">J'ai un problème avec un conducteur</option>
+                        <option value="probtech">J'ai un problème technique</option>
+                        <option value="probpaie">J'ai un problème avec mon paiement</option>
+                        <option value="assist">J'ai besoin d'une assistance particulière</option>
+                        <option value="other">Autre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="msg">Message* :</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Envoyer le message</button>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <!--Début du Footer-->
+    <footer>
+
+        <!--Réseaux Sociaux-->
+        <div class="social">
+            <a href=""><img src="../../img/facebook.png"></a>
+            <a href=""><img src="../../img/google.png"></a>
+            <a href=""><img src="../../img/instagram.png"></a>
+            <a href=""><img src="../../img/twitter.png"></a>
+        </div>
+
+        <!--Mentions Légales et compagnie -->
+        <div class="mentions">
+            <a href="../public/commentmarche.html" class="one">Comment ça marche ?</a>
+            <a href="../public/bonneconduite.html" class="two">Code de bonne conduite</a>
+            <a href="../public/contact.html" class="three">Contact</a>
+            <a href="../public/cgu_mentions.html">CGU et mentions légales</a>
+            <a href="../public/securite.html">Sécurité</a>
+            <a href="../public/appmobile.html">Application mobile</a>
+            <a href="../public/partenaire.html">Nos partenaires</a>
+            <a href="../public/faq.html">FAQ</a>
+            <a href="../index.html#presse">Presse</a>
+        </div>
+
+    </footer>
+    <!--Fin du Footer-->
+</body>
+
+</html>

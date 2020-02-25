@@ -1,0 +1,286 @@
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+}
+
+a:visited {
+    color: #5F94C2;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: #5F94C2;
+}
+
+#logo {
+    background-image: url("../img/logoBlanc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+    background-color: #504e4e;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    width: 85%;
+    height: 100%;
+    background-color: #504e4e;
+    float: right;
+    position: relative;
+}
+
+#bottomdiv {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 2em;
+}
+
+.h_txtg {
+    /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.h_txtg a {
+    /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.h_txtd {
+    /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+    float: right;
+}
+
+.h_txtd a {
+    /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+    text-decoration: none;
+}
+
+.presse {
+    /* TOUT LES LIENS / IMAGES PRESSE */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2em;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #504e4e;
+    position: relative;
+    font-size: 1em;
+}
+
+.social {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.social a {
+    padding: 5px;
+}
+
+.mentions {
+    /* TOUT LES LIENS DU FOOTER */
+    display: grid;
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(30px, auto);
+}
+
+.mentions a {
+    text-decoration: none;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+/* Css du contenaire qui contient toute la FAQ*/
+
+.container {
+    margin: 0 auto;
+    padding: 4rem;
+    width: 48rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    color: #373D51;
+    padding: 1.3rem;
+    margin: 0;
+}
+
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288A2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+/*CSS  pendant et après passage de la souris sur la question*/
+
+.accordion a:hover, .accordion a:hover::after {
+    cursor: pointer;
+    color: #FF5353;
+    font-size: 16pt;
+}
+
+.accordion a:hover::after {
+    border: 1px solid #FF5353;
+    font-size: 120pt;
+}
+
+.accordion a.active {
+    color: #FF5353;
+    border-bottom: 1px solid #FF5353;
+}
+
+.accordion a::after {
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288A2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #7288A2;
+    text-align: center;
+}
+
+.accordion a:hover, .accordion a:hover::after {
+    cursor: pointer;
+    color: red;
+    font-size: 16pt;
+}
+
+.accordion a.active::after {
+    color: #FF5353;
+    border: 1px solid #FF5353;
+}
+
+/*CSS de la div de la réponse */
+
+.accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #E5E5E5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+}
+
+/*CSS du <p> de la réponse */
+
+.accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+/*Css de la réponse quand l'user à cliqué sur la question*/
+
+.accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+/******** MEDIA TABLETTE PAR BERENGERE ET JEREMY CLAIR **********/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    #logo {
+        background-repeat: round;
+        background-size: auto;
+        width: 33%;
+    }
+    #container {
+        width: 67%;
+    }
+    #bottomdiv {
+        margin-top: 3%;
+        bottom: 20px;
+    }
+    .h_txtg {
+        text-align: center;
+        float: none;
+    }
+    .h_txtd {
+        text-align: center;
+        float: none;
+    }
+    .mentions {
+        width: 72%;
+        grid-gap: 6px;
+    }
+    .social {
+        margin-left: 5%;
+    }
+}

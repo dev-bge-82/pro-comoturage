@@ -1,0 +1,425 @@
+* {-moz-box-sizing: border-box; box-sizing: border-box;}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+    height: 150px;
+}
+
+a:visited {
+    color: #5F94C2;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: #5F94C2;
+}
+
+#logo {
+    background-image: url("../img/logoBlanc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+    background-color: #504e4e;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    width: 85%;
+    height: 100%;
+    background-color: #504e4e;
+    float: right;
+    position: relative;
+}
+
+#bottomdiv {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 2em;
+}
+
+.h_txtg {
+    /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.h_txtg a {
+    /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.h_txtd {
+    /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+    float: right;
+}
+
+.h_txtd a {
+    /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #504e4e;
+    position: relative;
+    font-size: 1em;
+}
+
+.social {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.social a {
+    padding: 5px;
+}
+
+.mentions {
+    /* TOUT LES LIENS DU FOOTER */
+    display: grid;
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(30px, auto);
+}
+
+.mentions a {
+    text-decoration: none;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+/* ENCADREMENT DE LA PARTIE CONNEXION */
+
+/**** PAR BERENGERE ****/
+
+.connexion {
+    /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "CONNEXION" ***/
+    width: 30em;
+    background-color: #F2ECD8;
+    border-radius: 20px;
+    height: 26.7em;
+    min-width: 300px;
+}
+
+.connexion h2 {
+    margin: 0;
+    width: 193px;
+    padding-top: 25px;
+    margin-left: 30px;
+    color: #5F94C2;
+}
+
+.reseau {
+    /*** DIV DES ICONES POUR LA CONNEXION PAR RESEAUX SOCIAUX ***/
+    width: 150px;
+    float: right;
+    margin-right: 30px;
+}
+
+.reseau .facebook {
+    width: 30px;
+    height: 30px;
+    margin-left: 80px;
+}
+
+.reseau .google {
+    width: 30px;
+    height: 30px;
+}
+
+.connexion .form {
+    /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+    height: 287px;
+    padding-top: 90px;
+}
+
+input.mail {
+    width: 80%;
+    height: 33px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input.mdp {
+    width: 80%;
+    height: 33px;
+    margin-left: 30px;
+    margin-top: 35px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tick {
+    vertical-align: middle;
+    margin-left: 15px;
+}
+.connexion .bouton {
+    width: 100px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    margin-top: 9.6em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-decoration: none;
+    font-family: arial, serif;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    background-color: #033d4a;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    box-shadow: 4px 3px 5px #000000;
+    -webkit-box-shadow: 4px 3px 5px #000000;
+    -moz-box-shadow: 4px 3px 5px #000000;
+}
+
+.connexion .bouton:hover {
+    padding: 0;
+    background-color: #044c5c;
+    border: 2px solid #000000;
+    box-shadow: -5px 5px 4px #7f7f7f;
+    -webkit-box-shadow: -5px 5px 4px #7f7f7f;
+    -moz-box-shadow: -5px 5px 4px #7f7f7f;
+}
+
+/* ENCADREMENT DE LA PARTIE "INSCRIPTION" */
+
+/**** PAR BERENGERE ****/
+
+.inscription {
+    /*** DIV PRINCIPAL COMPRENANT TOUS LES ELEMENTS "INSCRIPTION" ***/
+    width: 40em;
+    background-color: #F2ECD8;
+    border-radius: 20px;
+    height: 26.7em;
+    min-width: 415px;
+    margin-left: 5%;
+}
+
+.inscription h2 {
+    margin: 0;
+    width: 150px;
+    padding-top: 25px;
+    margin-left: 30px;
+    color: #5F94C2;
+}
+
+
+.inscription .form {
+    /*** ON ARRIVE AU FORMULAIRE ET SES ELEMENTS ***/
+    width: 100%;
+    margin-top: 6%;
+}
+
+input.pseudo {
+    width: 86%;
+    height: 20px;
+    border: none;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.inscription input.mail {
+    width: 86%;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    height: 29px;
+}
+
+.inscription input.mdp {
+    width: 86%;
+    border: none;
+    margin: 0;
+    border-radius: 0;
+    height: 29px;
+}
+
+input.verif {
+    width: 86%;
+    height: 20px;
+    border: none;
+    padding: 5px;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.input_container {
+    /*** DIV POUR LES "INPUT" AFIN D'INCLURE LES ELEMENTS "CLOSE" DANS LE CADRE DE SAISI ***/
+    background-color: white;
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    height: 33px;
+    display: inline-block;
+    min-width: 300px;
+}
+
+
+.inscription .bouton {
+    display: block;
+    margin: auto;
+    margin-top: 6em;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    width: 100px;
+    height: 25px;
+    text-decoration: none;
+    font-family: arial, serif;
+    font-size: 0.9em;
+    color: #FFFFFF;
+    background-color: #033d4a;
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    box-shadow: 4px 3px 5px #000000;
+    -webkit-box-shadow: 4px 3px 5px #000000;
+    -moz-box-shadow: 4px 3px 5px #000000;
+}
+
+.inscription .bouton:hover {
+    padding: 0;
+    background-color: #044c5c;
+    border: 2px solid #000000;
+    box-shadow: -5px 5px 4px #7f7f7f;
+    -webkit-box-shadow: -5px 5px 4px #7f7f7f;
+    -moz-box-shadow: -5px 5px 4px #7f7f7f;
+}
+
+#sign_in_register {
+    /**** GRILLE D'ALIGNEMENT EN COLONNE DES FORMULAIRES ****/
+    margin-top: 5.5em;
+    margin-left: 5em;
+    margin-bottom: 9.6em;
+    display: block;
+}
+
+/*********** FIN ***********/
+/*********** FORMAT TABLETTE PAR BERENGERE ET JEREMY CLAIR ****************/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    #sign_in_register {
+        margin: 20% auto;
+    }
+    .connexion .bouton {
+        margin-top: 130px;
+    }
+    .reseau {
+        margin: auto;
+        padding: 0;
+        margin-top: 1%;
+    }
+    .connexion .form {
+        padding-top: 29%;
+    }
+    input.mail {
+        margin-left: 0;
+    }
+    input.mdp {
+        margin-left: 0;
+    }
+    .inscription .form {
+        padding-top: 14%;
+    }
+    .inscription .bouton {
+        margin: 20px auto;
+    }
+    .connexion {
+        margin: auto;
+    }
+    .inscription {
+        margin: auto;
+    }
+    #logo {
+        background-repeat: round;
+        background-size: auto;
+        width: 33%;
+    }
+
+    #container {
+        width: 67%;
+    }
+
+    #bottomdiv {
+        margin-top: 3%;
+        bottom: 20px;
+    }
+
+    .h_txtg {
+        text-align: center;
+    }
+
+    .h_txtd {
+        text-align: center;
+    }
+
+    .mentions {
+        width: 72%;
+        grid-gap: 6px;
+    }
+
+    .social {
+        margin-left: 5%;
+    }
+    .h_txtg {
+        text-align: center;
+        float: none;
+    }
+
+    .h_txtd {
+        text-align: center;
+        float: none;
+    }
+}
+
