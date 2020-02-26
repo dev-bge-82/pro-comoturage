@@ -1,0 +1,381 @@
+footer{
+    display:none;
+}
+
+.banniere{
+    display:none;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 150px;
+}
+
+a:visited {
+    color: #5F94C2;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: #5F94C2;
+}
+
+#logo {
+    background-image: url("../img/logoBlanc.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* Faire en sorte que l'image prenne la totalité de son contenneur. */
+    background-color: #504e4e;
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#container {
+    width: 85%;
+    height: 100%;
+    background-color: #504e4e;
+    float: right;
+    position: relative;
+}
+
+#bottomdiv {
+    width: 100%;
+    position: absolute;
+    bottom: 5px;
+    font-size: 2em;
+}
+
+.h_txtg {
+    /* HEADER TEXTE DE GAUCHE ( RECHERCHE / PROPOSER ) */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.h_txtg a {
+    /* HEADER TEXTE DE GAUCHE ( CONNEXION / ENREGISTRER ) */
+    padding: 10px;
+    text-decoration: none;
+}
+
+.h_txtd {
+    /* HEADER TEXTE DE DROITE ( RECHERCHE / PROPOSER ) */
+    float: right;
+}
+
+.h_txtd a {
+    /* HEADER TEXTE DE DROITE ( CONNEXION / ENREGISTRER ) */
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #504e4e;
+    position: relative;
+    font-size: 1em;
+}
+
+.social {
+    width: 15%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.social a {
+    padding: 5px;
+}
+
+.mentions {
+    /* TOUT LES LIENS DU FOOTER */
+    display: grid;
+    width: 40%;
+    float: right;
+    margin-top: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+    grid-auto-rows: minmax(30px, auto);
+}
+
+.mentions a {
+    text-decoration: none;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+/* POUR L'ALIGNEMENT EN COLONNES DES LIENS DU FOOTER */
+
+/*Apparence des onglets*/
+
+#onglets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.5em;
+}
+
+#onglets>a {
+    color: black;
+}
+
+#profil {
+    background-color: gray;
+    height: 70px;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#trajets {
+    background-color: rgb(175, 175, 175);
+    height: 70px;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#messages {
+    background-color: lightgray;
+    height: 70px;
+    width: 33.33%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*Apparence du premier rang de la feuille*/
+
+#rang1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*le bloc de la photo*/
+
+#photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25%;
+    margin: 5px;
+}
+
+#languedepute {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: url(../img/languedepute.jpg) no-repeat center;
+}
+
+#photo>a {
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color: black;
+    width: 200px;
+}
+
+#photo>p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    color: grey;
+    font-style: italic;
+    font-size: 0.8em;
+    width: 200px;
+}
+
+/*le bloc des infos personnelles*/
+
+#info {
+    width: 45%;
+    margin: 5px;
+}
+
+#h1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#h1>h1 {
+    font-size: 1.2em;
+    border: 1px solid black;
+    width: 75%;
+    height: 30px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#crayon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    width: 36px;
+    height: 36px;
+    border: 1px solid black;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.c2 {
+    padding-left: 30px;
+}
+
+/*le bloc description*/
+
+#description {
+    width: 30%;
+    margin: 5px;
+}
+
+#description {
+    margin-top: 50px;
+}
+
+#description>h2 {
+    font-size: 1em;
+}
+
+#par1 {
+    color: grey;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+/*le rang 2 de la page*/
+
+#rang2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#vehicule {
+    width: 40%;
+}
+
+#vehicule>h2 {
+    font-size: 0.8em;
+    margin-top: 30px;
+}
+
+#moto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#moto1 {
+    width: 200px;
+    height: 120px;
+    background-color: grey;
+}
+
+#moto2 {
+    width: 200px;
+    height: 120px;
+    background-color: grey;
+}
+
+#equipement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.tick {
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+}
+
+#pictocasque {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-repeat: initial;
+    background-size: contain;
+}
+
+#pictogants {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#last {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#fin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 100px;
+}
+
+#fin>p {
+    margin-left: 22px;
+}
+
+#conducteur {
+    display: flex;
+    flex-direction: row;
+}
+
+#conducteur>p {
+    margin-top: 0px;
+}
